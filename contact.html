@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Your Trip</title>
+</head>
+<body>
+	<h1>Book Now!</h1>
+	<form method="get">
+	<fieldset>
+		<label>Leaving From:
+			<select name="from">
+				<option value="DTW">Detroit, MI - Metro Wayne Co. (DTW)</option>
+				<option value="LGA">New York, NY - LaGuardia (LGA)</option>
+			</select>
+		</label>
+		<br>
+		<label>Destination:
+			<select name="destination">
+				<option value="Cancun">Cancun, Mexico</option>
+				<option value="Aspen">Aspen, Colorado</option>
+				<option value="Seattle">Seattle, Washington</option>
+			</select>
+		</label>
+		<br>
+		<label>Departure Date:
+			<input type = "date">
+		</label>
+		<br>
+		<label>Return Date:
+			<input type = "date">
+		</label>
+	</fieldset>
+	<fieldset>
+		<label>Name:
+			<input type = "text" id = "name"><br />
+		</label>
+		<label>Email:
+			<input type = "email" id = "email"><br />
+		</label>
+		<label>Phone Number:
+			<input type = "tel" id = "phone"><br />
+		</label>
+	</fieldset>
+	<fieldset>
+		<label>Group Size:
+			<input type = "number" id = "groupsize"></br />
+		</label>
+		<label>Personalize Your Plan<br />
+			<input type = "checkbox" name="" value="Flight">Flight<br>
+			<input type = "checkbox" name="" value="Hotel">Hotel<br>
+			<input type = "checkbox" name="" value="Car">Car<br>
+		</label>
+		<label>Promo Code: 
+			<input type = "text" id ="promo"><br />
+		</label>
+	</fieldset>
+	<button type="submit">Get Started!</button>
+	</form>
+</body>
