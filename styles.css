@@ -1,5 +1,13 @@
+/* Color Palette: 
+http://www.colourlovers.com/palette/937624/Dance_To_Forget */
+
 body {
 	background-color: #E1F5C4;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
 }
 
 p {
@@ -19,4 +27,5 @@ header img {
 footer {
 	background-color: #FC913A;
 	padding: 1em;
+	text-align: center;
 }
