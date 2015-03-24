@@ -9,7 +9,7 @@
 </head>
 
 	<body>
-		<?php include header.php ?>
+		<?php include 'header.php'; ?>
 		
 		<h1>This is our awesome travel agency</h1>
 		<p>Some text here</p>
