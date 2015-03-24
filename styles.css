@@ -2,6 +2,10 @@ body {
 	background-color: #E1F5C4;
 }
 
+p {
+	padding: 1em;
+}
+
 header {
 	background-color: #FF4E50;
 	padding: 1em;
@@ -10,4 +14,9 @@ header {
 header img {
 	display: block;
 	margin: auto;
+}
+
+footer {
+	background-color: #FC913A;
+	padding: 1em;
 }
