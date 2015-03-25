@@ -12,9 +12,11 @@
 	<?php include 'header.php'; ?>
 
 	<div id="top-photos">
-	    <a href="beach.php"><img src="http://beachsideresortpanamacitybeach.com/wp-content/gallery/home/balcony_view_beach_pool_0.jpg" alt="pcb" /></a>
-	    <a href="aspen.php"><img src="http://aspenalps.com/wp-content/uploads/2012/10/aspen-colorado-snowmass.jpg" alt="aspen" /></a>
-	    <a href="seattle.php"><img src="http://jamesb.com/wp-content/uploads/2012/05/seattleSkyline.jpg" alt= "seattle" /></a>
+		<ul>
+		    <li><a href="beach.php"><img src="http://beachsideresortpanamacitybeach.com/wp-content/gallery/home/balcony_view_beach_pool_0.jpg" alt="pcb" /></a>
+		    </li><li><a href="aspen.php"><img src="http://aspenalps.com/wp-content/uploads/2012/10/aspen-colorado-snowmass.jpg" alt="aspen" /></a>
+			</li><li><a href="seattle.php"><img src="http://jamesb.com/wp-content/uploads/2012/05/seattleSkyline.jpg" alt= "seattle" /></a></li>
+		</ul>
 	</div>
 
 	<h1>This is our awesome travel agency</h1>
