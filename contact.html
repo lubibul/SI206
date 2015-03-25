@@ -5,7 +5,12 @@
 </head>
 <body>
 	<h1>Book Now!</h1>
-	<form method="get">
+
+	<img id="seattle" src = "img/seattle.png" />
+	<img id="aspen" src = "img/aspen.png" />
+	<img id="pcb" src = "img/pcb.png" />
+
+	<form onSubmit="return validate()" method="get">
 	<fieldset>
 		<label>Leaving From:
 			<select name="from">
@@ -16,7 +21,7 @@
 		<br>
 		<label>Destination:
 			<select name="destination">
-				<option value="Cancun">Cancun, Mexico</option>
+				<option value="PCB">Panama City Beach, Florida</option>
 				<option value="Aspen">Aspen, Colorado</option>
 				<option value="Seattle">Seattle, Washington</option>
 			</select>
@@ -37,8 +42,11 @@
 		<label>Email:
 			<input type = "email" id = "email"><br />
 		</label>
+		<label>Confirm Email:
+			<input type = "email" id = "email-2"><br />
+		</label>
 		<label>Phone Number:
-			<input type = "tel" id = "phone"><br />
+			<input type = "tel" pattern = "[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" id = "phone"><br />
 		</label>
 	</fieldset>
 	<fieldset>
@@ -56,4 +64,16 @@
 	</fieldset>
 	<button type="submit">Get Started!</button>
 	</form>
+
+	<script>
+		function validate() {
+			var email1 = document.getElementById("email");
+			var email2 = document.getElementById("email-2");
+
+			if (email1.value != email2.value) {
+				alert("The emails don't match!");
+				return false;
+			}
+		}
+	</script>
 </body>
