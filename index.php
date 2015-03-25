@@ -20,7 +20,7 @@
 	</div>
 
 	<h1>This is our awesome travel agency</h1>
-	<p>Some text here</p>
+	<p><a href="contact.php">Book Your Trip Now!</a></p>
 
 	<footer>
 		Travel Agency Site &copy; 2015. Created by Ben Beale, Selena Moeljadi, and Lulu Tang.
