@@ -1,0 +1,47 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{ 
+text-align: center;
+color: #0ad7b8;
+}
+
+#summary{
+height: 180px;
+width: 500px;
+display: block;
+background: rgba(219, 250, 41, 0.53);
+
+-moz-box-shadow: inset 0px 0px 0px 0px rgb(128,128,128);
+-webkit-box-shadow: inset 0px 0px 0px 0px rgb(128,128,128);
+box-shadow: inset 0px 0px 0px 0px rgb(128,128,128);
+}
+/*Photo Gallery on top of the page*/
+
+#top-photos {
+  display: inline-block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#top-photos li {
+  display:inline-block;
+}
+
+#top-photos img {
+  opacity: 0.8;
+  width: 170px;
+  height: 120px;
+  margin: 10;
+  padding: 10;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#top-photos img:hover {
+  opacity: 1;
+}
