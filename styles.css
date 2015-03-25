@@ -29,3 +29,70 @@ footer {
 	padding: 1em;
 	text-align: center;
 }
+
+#foodGallery ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#foodGallery ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+
+}
+#foodGallery ul li:first-child {
+  margin: 0;
+}
+#foodGallery ul li a {
+  display: inline-block;
+  margin: 0;
+  overflow: hidden;
+  position: absoloute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0,2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#foodGallery ul:hover li a img {
+  opacity: 0.45;
+}
+#foodGallery img {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0,2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: 0;
+}
+#foodGallery img:hover {
+  z-index: 5;
+}
+#foodGallery.gallery {
+  padding: 0;
+}
+#foodGallery.gallery.class ul li a, #foodGallery.gallery.class ul li {
+  height: 1000px;
+  width: 300px;
+}
+#foodGallery.gallery.class ul li a.expand, #foodGallery.gallery.class ul li.expand {
+  height: 320px;
+  width: 480px;
+}
+#foodGallery.gallery.class ul li a.expand img, #foodGallery.gallery.class ul li.expand img {
+  left: 0;
+  top: 0;
+}
+#foodGallery.gallery.class img {
+  height: 320px;
+  left: -160px;
+  position: relative;
+  top: -80px;
+  width: auto;
+}
+#foodGallery.gallery.class img:hover {
+  opacity: 1;
+}
