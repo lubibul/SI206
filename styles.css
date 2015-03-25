@@ -96,3 +96,9 @@ footer {
 #foodGallery.gallery.class img:hover {
   opacity: 1;
 }
+
+/*Contact Page*/
+
+.map {
+  display: block;
+}
