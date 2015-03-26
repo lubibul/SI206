@@ -17,10 +17,10 @@
 		<?php include 'header.php'; ?>
 
 		<ul class="bxslider">
-			<li><img src="img/skyline.jpg" /></li>
-			<li><img src="img/waterfront.jpg" /></li>
-			<li><img src="img/seahawks.jpg" /></li>
-			<li><img src="img/emp.jpg" /></li>
+			<li><img src="img/seattle-skyline.jpg" /></li>
+			<li><img src="img/seattle-waterfront.jpg" /></li>
+			<li><img src="img/seattle-seahawks.jpg" /></li>
+			<li><img src="img/seattle-emp.jpg" /></li>
 		</ul>
 
 		<script type="text/javascript">
