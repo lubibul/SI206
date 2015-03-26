@@ -20,8 +20,17 @@
 		include "header.php";
 	?>
 		<h1>Panama City Beach, Florida</h1>
-
-<ul class="bxslider">
+	</br>
+		<h2>Located on the warm waters of the Gulf of Mexico,
+		 there are 27 miles of sugary white sand beaches where
+		drinking on the beach is legal. What else could a spring 
+		breaker ask for? The main strip offers endless choices 
+		of beachfront hotels from deluxe to budget properties.
+		There's also a wide variety of clubs and deck bars offering
+		corporate sponsored events and live concerts, like Sharky's,
+		 Spinnaker, and the largest nightclub in the U.S., Club La Vela.
+		Lay out and get a tan, parasail, snorkel for starfish in clear
+		blue waters or jetski right in front of your hotel in PCB, Florida. </h2><ul class="bxslider">
             <li><img src="http://www.rabeachgetaways.com/images/gallery/springbreak-gallery6.jpg" alt= "pcbresort"></a></li>          
             <li><img src="http://www.desktophdphotos.com/wp-content/uploads/2014/12/Panama-City-Beach-Spring-Break.jpg" alt= "pcbrealness"></a></li>          
             <li><img src="http://hdwallpaper2013.com/wp-content/uploads/2013/01/Panama-City-Beach-at-Night-HD-Wallpaper.jpg" alt= "nighttime"></a></li>          
@@ -36,18 +45,6 @@
 		</script>
 
 
-<div id="summary">
-		<h2>Located on the warm waters of the Gulf of Mexico,
-		 there are 27 miles of sugary white sand beaches where
-		drinking on the beach is legal. What else could a spring 
-		breaker ask for? The main strip offers endless choices 
-		of beachfront hotels from deluxe to budget properties.
-		There's also a wide variety of clubs and deck bars offering
-		corporate sponsored events and live concerts, like Sharky's,
-		 Spinnaker, and the largest nightclub in the U.S., Club La Vela.
-		Lay out and get a tan, parasail, snorkel for starfish in clear
-		blue waters or jetski right in front of your hotel in PCB, Florida. </h2>
-</div>
 
 </br>
 
