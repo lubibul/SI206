@@ -9,8 +9,6 @@ img.map {
 div.map {
 	width: 50%;
 	display: inline-block;
-	border: 0.5em solid #FF4E50;
-	/*margin: 2em;*/
 }
 
 div.form {
