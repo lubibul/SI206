@@ -9,8 +9,6 @@ img.map {
 div.map {
 	width: 50%;
 	display: inline-block;
-	border: 0.5em solid #FF4E50;
-	/*margin: 2em;*/
 }
 
 div.form {
@@ -33,4 +31,25 @@ fieldset {
 	color: #cc3f42;
 	border: 0.5em solid #FF4E50;
 	margin: 0.5em;
+}
+
+button {
+	font-weight: bold;
+	font-size: 1em;
+	padding: 1em;
+	background-color: #FF4E50;
+	border: 0px;
+	color: #F9D423;
+	text-decoration: none;
+	margin: 0.5em;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+button:hover {
+	background-color: #F9D423;
+	color: #FF4E50;
 }

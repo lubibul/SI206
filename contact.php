@@ -11,7 +11,7 @@
 <body>
 	<?php include 'header.php'; ?>
 
-	<h1>Book Now!</h1>
+	<h1>Choose Your Destination!</h1>
 
 	<div class="map">
 		<img class="map" id="seattle" src = "img/map-seattle.png" />
@@ -69,7 +69,7 @@
 				<input type = "text" id ="promo"><br />
 			</label>
 		</fieldset>
-		<button type="submit">Get Started!</button>
+			<button type="submit">Let's Fly!</button>
 		</form>
 	</div>
 
