@@ -14,9 +14,9 @@
 	<h1>Book Now!</h1>
 
 	<div class="map">
-		<img class="map" id="seattle" src = "img/seattle.png" />
-		<img class="map" id="aspen" src = "img/aspen.png" />
-		<img class="map" id="pcb" src = "img/pcb.png" />
+		<img class="map" id="seattle" src = "img/map-seattle.png" />
+		<img class="map" id="aspen" src = "img/map-aspen.png" />
+		<img class="map" id="pcb" src = "img/map-pcb.png" />
 	</div>
 
 	<div class="form">
