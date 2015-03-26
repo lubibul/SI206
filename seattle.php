@@ -16,6 +16,9 @@
 	<body>
 		<?php include 'header.php'; ?>
 
+		<h1 class="seattle">Seattle</h1>
+		<p class="seattle">Do something different for your next spring break. Maybe you -- like many other students -- have always gone to the same vacation spots. Instead of repeating those same experiences, consider taking a trip to the gem of the Pacific Northwest known as Settle. With many attractions like the famous Space Needle, the EMP Museum of music, sci-fi, and pop culture, exciting night life and miles of beautiful waterfront on the Puget Sound, Seattle truly does have something for everyone.</p>
+
 		<ul class="bxslider">
 			<li><img src="img/seattle-skyline.jpg" /></li>
 			<li><img src="img/seattle-waterfront.jpg" /></li>
