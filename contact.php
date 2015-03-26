@@ -69,7 +69,7 @@
 				<input type = "text" id ="promo"><br />
 			</label>
 		</fieldset>
-		<button type="submit">Get Started!</button>
+			<button type="submit">Let's Fly!</button>
 		</form>
 	</div>
 
