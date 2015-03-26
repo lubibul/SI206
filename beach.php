@@ -8,6 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="jquery.bxslider.min.js"></script>	
+	<!-- bxSlider CSS file -->
+	<link href="jquery.bxslider.css" rel="stylesheet" />
 </head>
 
 	<body>
@@ -16,15 +21,19 @@
 	?>
 		<h1>Panama City Beach, Florida</h1>
 
-<div id="top-photos">
-        <ul>
+<ul class="bxslider">
             <li><img src="http://www.rabeachgetaways.com/images/gallery/springbreak-gallery6.jpg" alt= "pcbresort"></a></li>          
-            <li><img src="http://www.mtvu.com/wp-content/gallery/2009/springbreak/fans/_AP_0691.JPG" alt= "pcbrealness"></a></li>          
-            <li><img src="http://www.laquintapcb.com/wp-content/sdaolpu/2011/04/peirpark1.jpg" alt= "nighttime"></a></li>          
-
-        </ul>
-</div>
+            <li><img src="http://www.desktophdphotos.com/wp-content/uploads/2014/12/Panama-City-Beach-Spring-Break.jpg" alt= "pcbrealness"></a></li>          
+            <li><img src="http://hdwallpaper2013.com/wp-content/uploads/2013/01/Panama-City-Beach-at-Night-HD-Wallpaper.jpg" alt= "nighttime"></a></li>          
+</ul>
 </br>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.bxslider').bxSlider();
+			});
+
+		</script>
 
 
 <div id="summary">
@@ -40,8 +49,6 @@
 		blue waters or jetski right in front of your hotel in PCB, Florida. </h2>
 </div>
 
-</br>
-</br>
 </br>
 
 	<?php
