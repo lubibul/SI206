@@ -20,16 +20,16 @@
 	</div>
 
 	<div class="form">
-		<form onSubmit="return validate()" method="get">
+		<form onSubmit="return validate()" action="thankyou.php" method="post">
 		<fieldset>
 			<label>Leaving From:
-				<select name="from">
+				<select name="leaving">
 					<option value="DTW">Detroit, MI - Metro Wayne Co. (DTW)</option>
 					<option value="LGA">New York, NY - LaGuardia (LGA)</option>
 				</select>
 			</label>
 			<label>Destination:
-				<select name="destination">
+				<select name="dest">
 					<option value="PCB">Panama City Beach, Florida</option>
 					<option value="Aspen">Aspen, Colorado</option>
 					<option value="Seattle">Seattle, Washington</option>
@@ -44,16 +44,16 @@
 		</fieldset>
 		<fieldset>
 			<label>Name:
-				<input type = "text" id = "name"><br />
+				<input type = "text" name = "name" id = "name"><br />
 			</label>
 			<label>Email:
-				<input type = "email" id = "email"><br />
+				<input type = "email" name = "email" id = "email"><br />
 			</label>
 			<label>Confirm Email:
 				<input type = "email" id = "email-2"><br />
 			</label>
 			<label>Phone Number:
-				<input type = "tel" pattern = "[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" id = "phone"><br />
+				<input type = "tel" name ="tel" pattern = "[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" id = "phone"><br />
 			</label>
 		</fieldset>
 		<fieldset>
