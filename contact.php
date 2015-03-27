@@ -9,14 +9,28 @@
 	<link rel="stylesheet" type="text/css" href="form.css">
 </head>
 <body>
+	<script>
+	    function selectDest(destination) {
+		    var sel = document.getElementById('dest');
+		    var opts = dest.options;
+
+		    for(var opt, j = 0; opt = opts[j]; j++) {
+		        if(opt.value == destination) {
+		            sel.selectedIndex = j;
+		            break;
+		        }
+		    }
+	    }
+	</script>
+
 	<?php include 'header.php'; ?>
 
 	<h1>Choose Your Destination!</h1>
 
 	<div class="map">
-		<img class="map" id="seattle" src = "img/map-seattle.png" />
-		<img class="map" id="aspen" src = "img/map-aspen.png" />
-		<img class="map" id="pcb" src = "img/map-pcb.png" />
+		<img onClick="selectDest('Seattle')" class="map" id="seattle" src = "img/map-seattle.png" />
+		<img onClick="selectDest('Aspen')"class="map" id="aspen" src = "img/map-aspen.png" />
+		<img onClick="selectDest('PCB')"class="map" id="pcb" src = "img/map-pcb.png" />
 	</div>
 
 	<div class="form">
@@ -29,7 +43,7 @@
 				</select>
 			</label>
 			<label>Destination:
-				<select name="dest">
+				<select id="dest" name="dest">
 					<option value="PCB">Panama City Beach, Florida</option>
 					<option value="Aspen">Aspen, Colorado</option>
 					<option value="Seattle">Seattle, Washington</option>
