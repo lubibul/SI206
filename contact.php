@@ -22,8 +22,20 @@
 		        }
 		    }
 
-		    var newImage = "img/map-" + destination.toLowerCase() + "-selected.png";
-		    document.getElementById(destination + "-map").src = newImage;
+		    refreshMap(destination);
+	    }
+
+	    function refreshMap (destination) {
+	    	var newImage = "img/map-" + destination.toLowerCase() + "-selected.png";
+
+		    var locations = document.getElementsByClassName("map");
+		    for (var loc, j=0; loc = locations[j]; j++) {
+		    	if (loc.src) {
+	    			loc.src = "img/" + loc.id + ".png";
+		    	}
+		    }
+
+			document.getElementById("map-" + destination).src = newImage;
 	    }
 	</script>
 
@@ -32,9 +44,9 @@
 	<h1>Choose Your Destination!</h1>
 
 	<div class="map">
-		<img onClick="selectDest('Seattle')" class="map" id="Seattle-map" src = "img/map-seattle.png" />
-		<img onClick="selectDest('Aspen')"class="map" id="Aspen-map" src = "img/map-aspen.png" />
-		<img onClick="selectDest('PCB')"class="map" id="PCB-map" src = "img/map-pcb.png" />
+		<img onClick="selectDest('Seattle')" class="map" id="map-Seattle" src = "img/map-seattle.png" />
+		<img onClick="selectDest('Aspen')" class="map" id="map-Aspen" src = "img/map-aspen.png" />
+		<img onClick="selectDest('PCB')" class="map" id="map-PCB" src = "img/map-pcb.png" />
 	</div>
 
 	<div class="form">
