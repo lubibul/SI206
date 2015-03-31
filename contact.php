@@ -6,7 +6,7 @@
 	<title>Book Your Trip</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="form.css">
+	<!-- <link rel="stylesheet" type="text/css" href="form.css"> -->
 	<link rel="stylesheet" type="text/css" href="form2.css">
 </head>
 <body>
@@ -21,6 +21,9 @@
 		            break;
 		        }
 		    }
+
+		    var newImage = "img/map-" + destination.toLowerCase() + "-selected.png";
+		    document.getElementById(destination + "-map").src = newImage;
 	    }
 	</script>
 
@@ -29,9 +32,9 @@
 	<h1>Choose Your Destination!</h1>
 
 	<div class="map">
-		<img onClick="selectDest('Seattle')" class="map" id="seattle" src = "img/map-seattle.png" />
-		<img onClick="selectDest('Aspen')"class="map" id="aspen" src = "img/map-aspen.png" />
-		<img onClick="selectDest('PCB')"class="map" id="pcb" src = "img/map-pcb.png" />
+		<img onClick="selectDest('Seattle')" class="map" id="Seattle-map" src = "img/map-seattle.png" />
+		<img onClick="selectDest('Aspen')"class="map" id="Aspen-map" src = "img/map-aspen.png" />
+		<img onClick="selectDest('PCB')"class="map" id="PCB-map" src = "img/map-pcb.png" />
 	</div>
 
 	<div class="form">
