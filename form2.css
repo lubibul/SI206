@@ -23,9 +23,10 @@ label {
 }
 
 fieldset {
-    background-color: #F9D423;
+    background-color: #9DC45F;
     color: #cc3f42;
-    border: 0.5em solid #FF4E50;
+    border: 5px solid #89AF4C;
+    padding: 1em;
     margin: 0.5em;
 }
 
@@ -52,16 +53,16 @@ h1 {
     color: #FFF;
     background: #9DC45F;
     text-shadow: 1px 1px 1px #949494;
-    border-radius: 5px 5px 0px 0px;
-    -webkit-border-radius: 5px 5px 0px 0px;
-    -moz-border-radius: 5px 5px 0px 0px;
-    border-bottom:1px solid #89AF4C;
+    border-radius: 0px 0px 30px 30px;
+    -webkit-border-radius: 0px 0px 30px 30px;
+    -moz-border-radius: 0px 0px 30px 30px;
+    border-bottom: 3px solid #89AF4C;
 
 }
 
 label {
     display: block;
-    margin: 0px 0px 5px;
+    margin: 0px 5px;
     float: left;
     margin-top: 10px;
     color: #5E5E5E;
@@ -71,7 +72,15 @@ textarea{
     height:100px;
     padding-top: 10px;
 }
+
+button {
+    background-color: #89AF4C;
+}
+
 button:hover {
-    background-color:#80A24A;
-    color: #FF4E50;
+    background-color: #F9D423;
+    color: #80A24A;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
 }

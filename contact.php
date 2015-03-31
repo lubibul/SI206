@@ -6,8 +6,8 @@
 	<title>Book Your Trip</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="form.css">
-	<!-- <link rel="stylesheet" type="text/css" href="form2.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="form.css"> -->
+	<link rel="stylesheet" type="text/css" href="form2.css">
 </head>
 <body>
 	<script>
@@ -53,42 +53,42 @@
 		<form onSubmit="return validate()" action="thankyou.php" method="post">
 		<fieldset>
 			<label>Leaving From:
-				<select name="leaving">
+				<select name="leaving" required>
 					<option value="DTW">Detroit, MI - Metro Wayne Co. (DTW)</option>
 					<option value="LGA">New York, NY - LaGuardia (LGA)</option>
 				</select>
 			</label>
 			<label>Destination:
-				<select id="dest" name="dest">
+				<select id="dest" name="dest" required>
 					<option value="PCB">Panama City Beach, Florida</option>
 					<option value="Aspen">Aspen, Colorado</option>
 					<option value="Seattle">Seattle, Washington</option>
 				</select>
 			</label>
 			<label>Departure Date:
-				<input name="departure-date" type = "date">
+				<input name="departure-date" type = "date" required>
 			</label>
 			<label>Return Date:
-				<input name="return-date" type = "date">
+				<input name="return-date" type = "date" required>
 			</label>
 		</fieldset>
 		<fieldset>
 			<label>Name:
-				<input type = "text" name = "name" id = "name"><br />
+				<input type = "text" name = "name" id = "name" required><br />
 			</label>
 			<label>Email:
-				<input type = "email" name = "email" id = "email"><br />
+				<input type = "email" name = "email" id = "email" required><br />
 			</label>
 			<label>Confirm Email:
-				<input type = "email" id = "email-2"><br />
+				<input type = "email" id = "email-2" required><br />
 			</label>
 			<label>Phone Number:
-				<input type = "tel" name ="tel" pattern = "[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" id = "phone"><br />
+				<input type = "tel" name ="tel" pattern = "[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" id = "phone" required><br />
 			</label>
 		</fieldset>
 		<fieldset>
 			<label>Group Size:
-				<input name = "group-size" type = "number" id = "groupsize"></br />
+				<input name = "group-size" type = "number" id = "groupsize" required></br />
 			</label>
 			<label>Personalize Your Plan<br />
 				<input type = "checkbox" name="" value="Flight">Flight<br>
