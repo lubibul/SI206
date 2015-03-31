@@ -80,7 +80,7 @@ button {
 button:hover {
     background-color: #F9D423;
     color: #80A24A;
-    border-radius: 20px 20px 20px 20px;
-    -webkit-border-radius: 20px 20px 20px 20px;
-    -moz-border-radius: 20px 20px 20px 20px;
+    border-radius: 30px 450px 30px 450px;
+    -webkit-border-radius: 30px 450px 30px 450px;
+    -moz-border-radius: 30px 450px 30px 450px;
 }
