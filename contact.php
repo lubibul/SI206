@@ -6,8 +6,8 @@
 	<title>Book Your Trip</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<!-- <link rel="stylesheet" type="text/css" href="form.css"> -->
-	<link rel="stylesheet" type="text/css" href="form2.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<!-- <link rel="stylesheet" type="text/css" href="form2.css"> -->
 </head>
 <body>
 	<script>
@@ -66,10 +66,10 @@
 				</select>
 			</label>
 			<label>Departure Date:
-				<input type = "date">
+				<input name="departure-date" type = "date">
 			</label>
 			<label>Return Date:
-				<input type = "date">
+				<input name="return-date" type = "date">
 			</label>
 		</fieldset>
 		<fieldset>
@@ -88,7 +88,7 @@
 		</fieldset>
 		<fieldset>
 			<label>Group Size:
-				<input type = "number" id = "groupsize"></br />
+				<input name = "group-size" type = "number" id = "groupsize"></br />
 			</label>
 			<label>Personalize Your Plan<br />
 				<input type = "checkbox" name="" value="Flight">Flight<br>
