@@ -6,8 +6,8 @@
 	<title>Book Your Trip</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<!-- <link rel="stylesheet" type="text/css" href="form.css"> -->
-	<link rel="stylesheet" type="text/css" href="form2.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<!-- <link rel="stylesheet" type="text/css" href="form2.css"> -->
 </head>
 <body>
 	<script>
@@ -50,7 +50,7 @@
 	</div>
 
 	<div class="form">
-		<form onSubmit="return validate()" action="thankyou.php" method="post">
+		<form onSubmit="return validate()" action="gotit.php" method="post">
 		<fieldset>
 			<label>Leaving From:
 				<select name="leaving" required>
