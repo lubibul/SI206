@@ -7,9 +7,9 @@
 		<link rel="stylesheet" type="text/css" href="default.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<!-- jQuery library (served from Google) -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 		<!-- bxSlider Javascript file -->
-		<script src="jquery.bxslider.min.js"></script>
+		<script src="jquery.bxslider.js"></script>
 		<!-- bxSlider CSS file -->
 		<link href="jquery.bxslider.css" rel="stylesheet" />
 	</head>

@@ -57,18 +57,18 @@
 		prevText: 'Prev',
 		nextSelector: null,
 		prevSelector: null,
-		autoControls: false,
+		autoControls: true,
 		startText: 'Start',
 		stopText: 'Stop',
-		autoControlsCombine: false,
+		autoControlsCombine: true,
 		autoControlsSelector: null,
 
 		// AUTO
-		auto: false,
+		auto: true,
 		pause: 4000,
 		autoStart: true,
 		autoDirection: 'next',
-		autoHover: false,
+		autoHover: true,
 		autoDelay: 0,
 		autoSlideForOnePage: false,
 
@@ -76,7 +76,7 @@
 		minSlides: 1,
 		maxSlides: 1,
 		moveSlides: 0,
-		slideWidth: 0,
+		slideWidth: 500,
 
 		// CALLBACKS
 		onSliderLoad: function() {},
