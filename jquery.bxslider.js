@@ -44,7 +44,7 @@
 		preventDefaultSwipeY: false,
 
 		// PAGER
-		pager: true,
+		pager: false,
 		pagerType: 'full',
 		pagerShortSeparator: ' / ',
 		pagerSelector: null,
@@ -76,7 +76,7 @@
 		minSlides: 1,
 		maxSlides: 1,
 		moveSlides: 0,
-		slideWidth: 500,
+		slideWidth: 600,
 
 		// CALLBACKS
 		onSliderLoad: function() {},
