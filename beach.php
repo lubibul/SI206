@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 	<!-- bxSlider Javascript file -->
-	<script src="jquery.bxslider.min.js"></script>	
+	<script src="jquery.bxslider.js"></script>	
 	<!-- bxSlider CSS file -->
 	<link href="jquery.bxslider.css" rel="stylesheet" />
 </head>
