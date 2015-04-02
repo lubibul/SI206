@@ -26,6 +26,39 @@ p {
 	padding: 1em;
 }
 
+a {
+  text-decoration: none;
+  color: #FF4E50;
+}
+
+a:hover {
+  color: #FC913A;
+}
+
+nav {
+  background-color: #F9D423;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  color: #FF4E50;
+  text-decoration: none;
+  padding: 1em;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #EDE574;
+  color: #FF4E50;
+}
+
 header {
 	background-color: #FF4E50;
 	padding: 1em;
