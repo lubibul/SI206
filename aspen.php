@@ -32,9 +32,10 @@
 		     guests can enjoy fly fishing, hiking and biking trails, along with a wealth of seasonal
 		      events, unique to this Colorado village </h2>
 	<ul class="bxslider">
-            <li><img src="img/pcb-beach.png" alt= "pcbresort"></a></li>          
-            <li><img src="img/pcb-party.jpg" alt= "pcbrealness"></a></li>          
-            <li><img src="img/pcb-nightlife.jpg" alt= "nighttime"></a></li>          
+            <li><img src="img/aspen-1.png" alt= "aspensnow1"></a></li>    
+            <li><img src="img/aspen-2.png" alt= "aspensnow2"></a></li>  
+            <li><img src="img/aspen-3.png" alt= "aspensnow3"></a></li>    
+                          
 </ul>
 </br>
 
