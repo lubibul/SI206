@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1">
-	<title>Panama City Beach, Floriday</title>
+	<title>Aspen, Colorado</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
@@ -19,18 +19,19 @@
 	<?php
 		include "header.php";
 	?>
-		<h1>Panama City Beach, Florida</h1>
+		<h1>Aspen, Colorado</h1>
 	</br>
-		<h2>Located on the warm waters of the Gulf of Mexico,
-		 there are 27 miles of sugary white sand beaches where
-		drinking on the beach is legal. What else could a spring 
-		breaker ask for? The main strip offers endless choices 
-		of beachfront hotels from deluxe to budget properties.
-		There's also a wide variety of clubs and deck bars offering
-		corporate sponsored events and live concerts, like Sharky's,
-		 Spinnaker, and the largest nightclub in the U.S., Club La Vela.
-		Lay out and get a tan, parasail, snorkel for starfish in clear
-		blue waters or jetski right in front of your hotel in PCB, Florida. </h2><ul class="bxslider">
+		<h2>The village of Aspen, Colorado is lined with verdant aspen trees,
+		 lending the name to this picturesque vacation destination. Nestled in between
+		  world-class alpine skiing mountains, Aspen has transformed itself from a 
+		  historical mining town into one of the premier ski destinations in the United States.
+		   Aspen, Colorado’s high country atmosphere and abundance of gourmet dining restaurants,
+		    cultural landmarks, upscale shopping and luxury ski resorts make it a year-round destination 
+		    for both ski vacations and summer adventures. Aspen offers skiers, snowboarders and
+		     snowmobilers limitless winter time activities at any of Aspen’s four mountains. Summer time 
+		     guests can enjoy fly fishing, hiking and biking trails, along with a wealth of seasonal
+		      events, unique to this Colorado village </h2>
+	<ul class="bxslider">
             <li><img src="img/pcb-beach.png" alt= "pcbresort"></a></li>          
             <li><img src="img/pcb-party.jpg" alt= "pcbrealness"></a></li>          
             <li><img src="img/pcb-nightlife.jpg" alt= "nighttime"></a></li>          

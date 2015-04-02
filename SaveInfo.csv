@@ -1,4 +1,1 @@
-leaving,dest,departure-date,return-date,name,email,tel,group-size,
-DTW,PCB,2015-03-11,2015-03-25,Lulu,froggy.jelly@gmail.com,123-123-1234,5,
-DTW,PCB,2015-03-11,2015-03-25,Lulu,froggy.jelly@gmail.com,123-123-1234,5,
-DTW,PCB,2015-03-11,2015-03-25,Lulu,froggy.jelly@gmail.com,123-123-1234,5,
+leaving,dest,departure-date,return-date,name,email,tel,group-sizeDTW,PCB,3/11/15,3/25/15,Lulu,froggy.jelly@gmail.com,123-123-1234,5DTW,PCB,3/11/15,3/25/15,Lulu,froggy.jelly@gmail.com,123-123-1234,5DTW,PCB,3/11/15,3/25/15,Lulu,froggy.jelly@gmail.com,123-123-1234,5LGA,Aspen,4/9/15,4/16/15,Selena,selenamo@umich.edu,111-999-0000,4DTW,PCB,5/13/15,5/17/15,Ben,bbeale@umich.edu,313-682-3054,2
