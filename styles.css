@@ -12,6 +12,10 @@ h1 {
 	font-weight: bold;
 }
 
+section {
+  margin: 1em 0;
+}
+
 p {
 	padding: 1em;
 }
