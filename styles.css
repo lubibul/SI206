@@ -10,6 +10,12 @@ body {
 h1 {
 	font-size: 2em;
 	font-weight: bold;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 section {
