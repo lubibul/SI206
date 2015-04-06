@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
+	<link rel="stylesheet" type="text/css" href="aspen.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 	<!-- bxSlider Javascript file -->
@@ -37,7 +38,7 @@
 		</script>
 
 	</br>
-		<h2>The village of Aspen, Colorado is lined with verdant aspen trees,
+		<h3>The village of Aspen, Colorado is lined with verdant aspen trees,
 		 lending the name to this picturesque vacation destination. Nestled in between
 		  world-class alpine skiing mountains, Aspen has transformed itself from a 
 		  historical mining town into one of the premier ski destinations in the United States.
@@ -46,16 +47,48 @@
 		    for both ski vacations and summer adventures. Aspen offers skiers, snowboarders and
 		     snowmobilers limitless winter time activities at any of Aspen’s four mountains. Summer time 
 		     guests can enjoy fly fishing, hiking and biking trails, along with a wealth of seasonal
-		      events, unique to this Colorado village </h2>
-
-<div>
-	Hotel Info
-</div>
-
+		      events, unique to this Colorado village </h3>
 </br>
+</br>
+<div class="view">  
+     <img src="img/aspenresort.png" alt= "aspen hotel">  
+     <div class="mask">  
+     <h2>Hotel</h2>  
+     <p>Example Text</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div>
+<div class="view">  
+     <img src="img/aspenactivities.png" alt= "aspen activities">  
+     <div class="mask">  
+     <h2>Activities</h2>  
+     <p>Example Text</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div>
+<div class="view">  
+     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+     <div class="mask">  
+     <h2>Restaurants</h2>  
+     <p>Example Text</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div>
+<div class="view">  
+     <img src="img/aspennightlife.png" alt= "aspen night">  
+     <div class="mask">  
+     <h2>Nightlife</h2>  
+     <p>Example Text</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div>
+</br>
+</br>
+</br>
+</br>
+	</body>
 
 	<?php
 			include "footer.php" ;
 	?>
-	</body>
 </html>
