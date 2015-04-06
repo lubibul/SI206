@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
-	<link rel="stylesheet" type="text/css" href="aspen.css">
+	<link rel="stylesheet" type="text/css" href="additionalinfo.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 	<!-- bxSlider Javascript file -->
