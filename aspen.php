@@ -55,7 +55,7 @@
      <div class="mask">  
      <h2>Hotel</h2>  
      <p>Example Text</p>  
-         <a href="#" class="info">Read More</a>  
+         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
      </div>  
 </div>
 <div class="view">  
@@ -63,7 +63,7 @@
      <div class="mask">  
      <h2>Activities</h2>  
      <p>Example Text</p>  
-         <a href="#" class="info">Read More</a>  
+         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
      </div>  
 </div>
 <div class="view">  
@@ -71,17 +71,10 @@
      <div class="mask">  
      <h2>Restaurants</h2>  
      <p>Example Text</p>  
-         <a href="#" class="info">Read More</a>  
+         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
      </div>  
 </div>
-<div class="view">  
-     <img src="img/aspennightlife.png" alt= "aspen night">  
-     <div class="mask">  
-     <h2>Nightlife</h2>  
-     <p>Example Text</p>  
-         <a href="#" class="info">Read More</a>  
-     </div>  
-</div>
+
 </br>
 </br>
 </br>
