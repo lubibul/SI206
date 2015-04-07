@@ -18,8 +18,7 @@
 
 	<body>
 	<?php include "header.php"; ?>
-	<h1>Aspen, Colorado</h1>
-
+<img src="img/aspen-banner.png" alt= "Aspen Banner">
 	<ul class="bxslider">
         <li><img src="img/aspen-1.png" alt= "aspensnow1"></a></li>    
         <li><img src="img/aspen-2.png" alt= "aspensnow2"></a></li>  

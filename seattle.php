@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<?php include 'header.php'; ?>
-		<h1 class="seattle">Seattle</h1>
+<img src="img/seattle-banner.png" alt= "Seattle Banner">
 		<ul class="bxslider">
 			<li><img src="img/seattle-skyline.jpg" /></li>
 			<li><img src="img/seattle-waterfront.jpg" /></li>

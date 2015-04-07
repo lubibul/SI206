@@ -19,8 +19,7 @@
 
 	<body>
 	<?php include "header.php"; ?>
-		
-	<h1>Panama City Beach, Florida</h1>
+	<img src= "img/pcb-banner.png" alt= "PCB Banner">	
 	<ul class="bxslider">
 	    <li><img src="img/pcb-beach.png" alt= "pcbresort"></a></li>          
 	    <li><img src="img/pcb-party.jpg" alt= "pcbrealness"></a></li>          
