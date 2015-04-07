@@ -154,4 +154,16 @@ footer {
 .whatelse-right .whatelse li {
   color: #F9D423;
 
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 95%;
+  }
 }
