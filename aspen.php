@@ -17,27 +17,23 @@
 </head>
 
 	<body>
-	<?php
-		include "header.php";
-	?>
-		<h1>Aspen, Colorado</h1>
+	<?php include "header.php"; ?>
+	<h1>Aspen, Colorado</h1>
 
 	<ul class="bxslider">
-            <li><img src="img/aspen-1.png" alt= "aspensnow1"></a></li>    
-            <li><img src="img/aspen-2.png" alt= "aspensnow2"></a></li>  
-            <li><img src="img/aspen-3.png" alt= "aspensnow3"></a></li>    
-                          
-</ul>
-</br>
+        <li><img src="img/aspen-1.png" alt= "aspensnow1"></a></li>    
+        <li><img src="img/aspen-2.png" alt= "aspensnow2"></a></li>  
+        <li><img src="img/aspen-3.png" alt= "aspensnow3"></a></li>    
+	</ul>
 
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.bxslider').bxSlider();
-			});
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider();
+		});
 
-		</script>
+	</script>
 
-	</br>
+	<div class="content">
 		<h3>The village of Aspen, Colorado is lined with verdant aspen trees,
 		 lending the name to this picturesque vacation destination. Nestled in between
 		  world-class alpine skiing mountains, Aspen has transformed itself from a 
@@ -48,40 +44,34 @@
 		     snowmobilers limitless winter time activities at any of Aspen’s four mountains. Summer time 
 		     guests can enjoy fly fishing, hiking and biking trails, along with a wealth of seasonal
 		      events, unique to this Colorado village </h3>
-</br>
-</br>
-<div class="view">  
-     <img src="img/aspenresort.png" alt= "aspen hotel">  
-     <div class="mask">  
-     <h2>Hotel</h2>  
-     <p>Example Text</p>  
-         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
-     </div>  
-</div>
-<div class="view">  
-     <img src="img/aspenactivities.png" alt= "aspen activities">  
-     <div class="mask">  
-     <h2>Activities</h2>  
-     <p>Example Text</p>  
-         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
-     </div>  
-</div>
-<div class="view">  
-     <img src="img/aspenfood.png" alt= "aspen wine and food">  
-     <div class="mask">  
-     <h2>Restaurants</h2>  
-     <p>Example Text</p>  
-         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
-     </div>  
-</div>
+	</div>
 
-</br>
-</br>
-</br>
-</br>
+	<div class="view">  
+	     <img src="img/aspenresort.png" alt= "aspen hotel">  
+	     <div class="mask">  
+	     <h2>Hotel</h2>  
+	     <p>Example Text</p>  
+	         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
+	     </div>  
+	</div>
+	<div class="view">  
+	     <img src="img/aspenactivities.png" alt= "aspen activities">  
+	     <div class="mask">  
+	     <h2>Activities</h2>  
+	     <p>Example Text</p>  
+	         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
+	     </div>  
+	</div>
+	<div class="view">  
+	     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+	     <div class="mask">  
+	     <h2>Restaurants</h2>  
+	     <p>Example Text</p>  
+	         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
+     	</div>
+     </div>  
+
 	</body>
 
-	<?php
-			include "footer.php" ;
-	?>
+	<?php include "footer.php"; ?>
 </html>

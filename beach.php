@@ -47,32 +47,30 @@
 
 	</script>
 
-	<section class="extras">
-		<div class="view">
-		     <img src="img/beachhotel.png" alt= "beach hotel">  
-		     <div class="mask">  
-		     <h2>Hotel</h2>  
-		     <p>Example Text</p>  
-		         <a href="http://www.tripadvisor.com/Hotels-g34543-Panama_City_Beach_Florida-Hotels.html" class="info">Read More</a>  
-		     </div>  
-		</div>
-		<div class="view">
-		     <img src="img/beachactivities.png" alt= "beach activities">  
-		     <div class="mask">  
-		     <h2>Activities</h2>  
-		     <p>Example Text</p>  
-		         <a href="http://www.tripadvisor.com/Attractions-g34543-Activities-Panama_City_Beach_Florida.html" class="info">Read More</a>  
-		     </div>
-		</div>
-		<div class="view">
-		     <img src="img/beachfood.png" alt= "beach wine and food">  
-		     <div class="mask">  
-		     <h2>Restaurants</h2>  
-		     <p>Example Text</p>  
-		         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
-		     </div>  
-		</div>
-	</section>
+	<div class="view">
+	     <img src="img/beachhotel.png" alt= "beach hotel">  
+	     <div class="mask">  
+	     <h2>Hotel</h2>  
+	     <p>Example Text</p>  
+	         <a href="http://www.tripadvisor.com/Hotels-g34543-Panama_City_Beach_Florida-Hotels.html" class="info">Read More</a>  
+	     </div>  
+	</div>
+	<div class="view">
+	     <img src="img/beachactivities.png" alt= "beach activities">  
+	     <div class="mask">  
+	     <h2>Activities</h2>  
+	     <p>Example Text</p>  
+	         <a href="http://www.tripadvisor.com/Attractions-g34543-Activities-Panama_City_Beach_Florida.html" class="info">Read More</a>  
+	     </div>
+	</div>
+	<div class="view">
+	     <img src="img/beachfood.png" alt= "beach wine and food">  
+	     <div class="mask">  
+	     <h2>Restaurants</h2>  
+	     <p>Example Text</p>  
+	         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
+	     </div>  
+	</div>
 	</body>
 
 	<?php include "footer.php" ; ?>
