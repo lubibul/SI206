@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
 	<link rel="stylesheet" type="text/css" href="additionalinfo.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
@@ -19,7 +20,9 @@
 
 	<body>
 	<?php include "header.php"; ?>
+	<section class="bigtext">
 	<img src= "img/pcb-banner.png" alt= "PCB Banner">	
+	</section>
 	<ul class="bxslider">
 	    <li><img src="img/pcb-beach.png" alt= "pcbresort"></a></li>          
 	    <li><img src="img/pcb-party.jpg" alt= "pcbrealness"></a></li>          
@@ -27,7 +30,8 @@
 	</ul>
 
 	<div class="content">
-		<h3>Located on the warm waters of the Gulf of Mexico,
+		<p class="seattle">
+		Located on the warm waters of the Gulf of Mexico,
 		 there are 27 miles of sugary white sand beaches where
 		drinking on the beach is legal. What else could a spring 
 		breaker ask for? The main strip offers endless choices 
@@ -36,7 +40,7 @@
 		corporate sponsored events and live concerts, like Sharky's,
 		 Spinnaker, and the largest nightclub in the U.S., Club La Vela.
 		Lay out and get a tan, parasail, snorkel for starfish in clear
-		blue waters or jetski right in front of your hotel in PCB, Florida. </h3>
+		blue waters or jetski right in front of your hotel in PCB, Florida. </p>
 	</div>
 	
 	<script type="text/javascript">
