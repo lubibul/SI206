@@ -17,11 +17,25 @@
 		<?php include 'header.php'; ?>
 		<h1 class="seattle">Seattle</h1>
 		<ul class="bxslider">
-			<li><img src="img/seattle-skyline.jpg" /></li>
-			<li><img src="img/seattle-waterfront.jpg" /></li>
-			<li><img src="img/seattle-seahawks.jpg" /></li>
-			<li><img src="img/seattle-emp.jpg" /></li>
+			<li><img src="img/seattle-skyline.jpg" /><p class="bx-caption">Check out the Space Needle!</p></li>
+			<li><img src="img/seattle-waterfront.jpg" /><p class="bx-caption">Take a boat ride!</p></li>
+			<li><img src="img/seattle-seahawks.jpg" /><p class="bx-caption">Cheer for our winning<br>sports teams!</p></li>
+			<li><img src="img/seattle-emp.jpg" /><p class="bx-caption">Enrich yourself with<br>a unique exhibit!</p></li>
 		</ul>
+
+		<div class="whatelse-left">
+			<ul class="whatelse">
+				<li>Hotels</li>
+				<li>Food & Drink</li>
+			</ul>
+		</div>
+
+		<div class="whatelse-right">
+			<ul class="whatelse">
+				<li>Sports</li>
+				<li>Concerts & Shows</li>
+			</ul>
+		</div>
 
 		<div class="content">
 			<p class="seattle">Do something different for your next spring break. 

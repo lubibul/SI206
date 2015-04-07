@@ -117,3 +117,37 @@ footer {
 .map {
   display: block;
 }
+
+
+
+/*
+      Seattle page
+
+      Left off before making the side menu elements display images with text overlay
+*/
+
+.whatelse-left {
+  position: absolute;
+  left: 10px;
+  top: 300px;
+  width: 20%;
+  background-color: #FF4E50;
+}
+
+.whatelse-right {
+  position: absolute;
+  right: 10px;
+  top: 300px;
+  width: 20%;
+  background-color: #FF4E50;
+}
+
+.whatelse-left .whatelse li {
+  color: #F9D423;
+  border: 1px solid;
+}
+
+.whatelse-right .whatelse li {
+  color: #F9D423;
+
+}
