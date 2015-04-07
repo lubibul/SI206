@@ -13,7 +13,7 @@
 	<?php include 'header.php'; ?>
 
 	<section>
-		<h1>Welcome to Travel Agency!</h1>
+		<img src="img/travelagencylogo.png">
 	</section>
 	<section class="card-container">
 		<a href="beach.php">
