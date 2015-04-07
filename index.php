@@ -12,7 +12,7 @@
 <body>
 	<?php include 'header.php'; ?>
 
-	<section>
+	<section class="bigtext">
 		<img src="img/travelagencylogo.png">
 	</section>
 	<section class="card-container">

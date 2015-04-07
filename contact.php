@@ -41,8 +41,9 @@
 
 	<?php include 'header.php'; ?>
 
-	<h1>Choose Your Destination!</h1>
-
+<section class="bigtext">
+<img src= "img/booknow-banner.png" alt= "Book Now!">
+</section>
 	<div class="map">
 		<img onClick="selectDest('Seattle')" class="map" id="map-Seattle" src = "img/map-seattle.png" />
 		<img onClick="selectDest('Aspen')" class="map" id="map-Aspen" src = "img/map-aspen.png" />
