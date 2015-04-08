@@ -25,20 +25,6 @@
 			<li><img src="img/seattle-emp.jpg" /><p class="bx-caption">Enrich yourself with<br>a unique exhibit!</p></li>
 		</ul>
 
-		<div class="whatelse-left">
-			<ul class="whatelse">
-				<li>Hotels</li>
-				<li>Food & Drink</li>
-			</ul>
-		</div>
-
-		<div class="whatelse-right">
-			<ul class="whatelse">
-				<li>Sports</li>
-				<li>Concerts & Shows</li>
-			</ul>
-		</div>
-
 		<div class="content">
 			<p class="seattle">Do something different for your next spring break. 
 				Maybe you -- like many other students -- have always gone to the same vacation spots. 
@@ -54,6 +40,32 @@
 			});
 
 		</script>
+
+		<div class="more-container-left">
+			<div class="more-left">
+				<h2 id="hotels"><span>Hotels</span></h2>
+				<h2 id="bars"><span>Bars</span></h2>
+
+			</div>
+		</div>
+
+		<div class="more-container-right">
+			<div class="more-right">
+				<h2 id="sports"><span>Sports</span></h2>
+				<h2 id="concerts"><span>More!</span></h2>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
 
 		<?php include 'footer.php'; ?>
 	</body>
