@@ -30,7 +30,7 @@
 	</ul>
 
 	<div class="content">
-		<p class="seattle">
+		<div class="info"><p>
 		Located on the warm waters of the Gulf of Mexico,
 		 there are 27 miles of sugary white sand beaches where
 		drinking on the beach is legal. What else could a spring 
@@ -40,7 +40,7 @@
 		corporate sponsored events and live concerts, like Sharky's,
 		 Spinnaker, and the largest nightclub in the U.S., Club La Vela.
 		Lay out and get a tan, parasail, snorkel for starfish in clear
-		blue waters or jetski right in front of your hotel in PCB, Florida. </p>
+		blue waters or jetski right in front of your hotel in PCB, Florida.</p> </div>
 	</div>
 	
 	<script type="text/javascript">
@@ -54,7 +54,7 @@
 	     <img src="img/beachhotel.png" alt= "beach hotel">  
 	     <div class="mask">  
 	     <h2>Hotel</h2>  
-	     <p>Example Text</p>  
+	     <p>Beachside Accomodations</p>  
 	         <a href="http://www.tripadvisor.com/Hotels-g34543-Panama_City_Beach_Florida-Hotels.html" class="info">Read More</a>  
 	     </div>  
 	</div>
@@ -62,7 +62,7 @@
 	     <img src="img/beachactivities.png" alt= "beach activities">  
 	     <div class="mask">  
 	     <h2>Activities</h2>  
-	     <p>Example Text</p>  
+	     <p>Fun in the Sun</p>  
 	         <a href="http://www.tripadvisor.com/Attractions-g34543-Activities-Panama_City_Beach_Florida.html" class="info">Read More</a>  
 	     </div>
 	</div>
@@ -70,7 +70,7 @@
 	     <img src="img/beachfood.png" alt= "beach wine and food">  
 	     <div class="mask">  
 	     <h2>Restaurants</h2>  
-	     <p>Example Text</p>  
+	     <p> Gastronomic Delights</p>  
 	         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
 	     </div>  
 	</div>

@@ -35,7 +35,7 @@
 	</script>
 
 	<div class="content">
-		<h3>The village of Aspen, Colorado is lined with verdant aspen trees,
+		<div class="info"> <p>The village of Aspen, Colorado is lined with verdant aspen trees,
 		 lending the name to this picturesque vacation destination. Nestled in between
 		  world-class alpine skiing mountains, Aspen has transformed itself from a 
 		  historical mining town into one of the premier ski destinations in the United States.
@@ -44,7 +44,7 @@
 		    for both ski vacations and summer adventures. Aspen offers skiers, snowboarders and
 		     snowmobilers limitless winter time activities at any of Aspen’s four mountains. Summer time 
 		     guests can enjoy fly fishing, hiking and biking trails, along with a wealth of seasonal
-		      events, unique to this Colorado village </h3>
+		      events, unique to this Colorado village </p> </div>
 	</div>
 
 	<div class="view">  
