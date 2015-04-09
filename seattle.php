@@ -15,9 +15,11 @@
 	</head>
 	<body>
 		<?php include 'header.php'; ?>
-<section class="bigtext">
-<img src="img/seattle-banner.png" alt= "Seattle Banner">
-</section>
+
+		<section class="bigtext">
+			<img src="img/seattle-banner.png" alt= "Seattle Banner">
+		</section>
+		
 		<ul class="bxslider">
 			<li><img src="img/seattle-skyline.jpg" /><p class="bx-caption">Check out the Space Needle!</p></li>
 			<li><img src="img/seattle-waterfront.jpg" /><p class="bx-caption">Take a boat ride!</p></li>

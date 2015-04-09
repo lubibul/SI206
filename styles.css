@@ -138,12 +138,11 @@ footer {
   top: 200px;
   width: 20%;
   margin: 20px;
-  /*background-color: #FF4E50;*/
   display: inline-block;
   color: #F9D423;
   font-weight: bold;
   font-style: italic;
-  border: 1px solid;
+  border: 1px solid #563d67;
 }
 
 .more-container-left .more-left h2 {
@@ -169,7 +168,7 @@ footer {
   color: #F9D423;
   font-weight: bold;
   font-style: italic;
-  border: 1px solid;
+  border: 1px solid #563d67;
 }
 
 .more-container-right .more-right h2 {
@@ -243,13 +242,30 @@ footer {
   background-color: #563d67;
 }
 
-
-
-
-
-
 @media only screen and (max-width: 768px) {
   .content {
     width: 95%;
+  }
+}
+
+
+
+
+
+
+
+/*
+  In the middle of using media queries to make the bxslider hidden in mobile/tablet view. 
+  I want to make the side bar images 4x4 in tablet view, and stacked on top of each other in mobile view 
+*/
+
+@media only screen and (max-width: 400px) {
+  .bx-wrapper * {
+    background-color: #E1F5C4;
+    visibility: hidden;
+  }
+
+  .more-container-right, .more-container-left {
+    visibility: hidden;
   }
 }
