@@ -43,8 +43,8 @@
 
 		<div class="more-container-left">
 			<div class="more-left">
-				<h2 id="hotels"><span>Hotels</span></h2>
-				<h2 id="bars"><span>Bars</span></h2>
+				<h2 id="hotels"><p>Hotels</p></h2>
+				<h2 id="bars"><p>Bars</p></h2>
 
 			</div>
 		</div>

@@ -185,7 +185,7 @@ footer {
   overflow: hidden;
 }
 
-#hotels span {
+#hotels p {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 50px;
@@ -199,7 +199,9 @@ footer {
   overflow: hidden;
 }
 
-#bars span {
+#bars p {
+  position: absolute;
+  right: 0;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 50px;
