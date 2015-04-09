@@ -6,7 +6,7 @@
 		<title>Book Your Trip</title>
 		<link rel="stylesheet" type="text/css" href="default.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" type="text/css" href="additionalinfo.css">
+		<link rel="stylesheet" type="text/css" href="aboutme.css">
 
 		<!-- jQuery library (served from Google) -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
@@ -20,7 +20,7 @@
 		<h1>About Our Team</h1>
 
 <div class="view">  
-	     <img src="img/aspenresort.png" alt= "aspen hotel">  
+	     <img src="img/ben.jpg" alt= "ben beale">  
 	     <div class="mask">  
 	     <h2>Ben Beale</h2>  
 	     <p>City Specialist</p>  
@@ -28,7 +28,7 @@
 	     </div>  
 	</div>
 	<div class="view">  
-	     <img src="img/aspenactivities.png" alt= "aspen activities">  
+	     <img src="img/selena.png" alt= "Selena Moeljadi">  
 	     <div class="mask">  
 	     <h2>Selena Moeljadi</h2>  
 	     <p>Beach Coordinator</p>  
@@ -36,7 +36,7 @@
 	     </div>  
 	</div>
 	<div class="view">  
-	     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+	     <img src="img/lulu.png" alt= "Lulu Tang">  
 	     <div class="mask">  
 	     <h2>Lulu Tang</h2>  
 	     <p>Snow Enthusiast</p>  
