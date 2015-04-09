@@ -11,7 +11,7 @@
 
 <body>
 	<?php include 'header.php'; ?>
-
+	
 	<section class="bigtext">
 		<img src="img/travelagencylogo.png">
 	</section>

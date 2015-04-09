@@ -37,6 +37,19 @@ section {
 -webkit-border-radius: 15px;
   background: white;
 }
+
+.hamburger {
+  display: none;
+}
+
+nav {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
 p {
 	padding: 1em;
 }
@@ -251,15 +264,40 @@ footer {
 
 
 
-
-
-
 /*
   In the middle of using media queries to make the bxslider hidden in mobile/tablet view. 
   I want to make the side bar images 4x4 in tablet view, and stacked on top of each other in mobile view 
 */
 
-@media only screen and (max-width: 400px) {
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 95%;
+  }
+
+  .hamburger {
+    display: block;
+    float: left;
+    width: 50px;
+  }
+
+  .logo {
+    float: right;
+    margin-right: 1em;
+    width: 50px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+  }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 500px) {
   .bx-wrapper * {
     background-color: #E1F5C4;
     visibility: hidden;
@@ -267,5 +305,9 @@ footer {
 
   .more-container-right, .more-container-left {
     visibility: hidden;
+  }
+
+  nav a {
+    display: block;
   }
 }
