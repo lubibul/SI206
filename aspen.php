@@ -51,7 +51,7 @@
 	     <img src="img/aspenresort.png" alt= "aspen hotel">  
 	     <div class="mask">  
 	     <h2>Hotel</h2>  
-	     <p>Example Text</p>  
+	     <p>Explore your Alpine Getawayst</p>  
 	         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
 	     </div>  
 	</div>
@@ -59,7 +59,7 @@
 	     <img src="img/aspenactivities.png" alt= "aspen activities">  
 	     <div class="mask">  
 	     <h2>Activities</h2>  
-	     <p>Example Text</p>  
+	     <p>What to do?</p>  
 	         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
 	     </div>  
 	</div>
@@ -67,7 +67,7 @@
 	     <img src="img/aspenfood.png" alt= "aspen wine and food">  
 	     <div class="mask">  
 	     <h2>Restaurants</h2>  
-	     <p>Example Text</p>  
+	     <p> There's everything from Thai to German</p>  
 	         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
      	</div>
      </div>  
