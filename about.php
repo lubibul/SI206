@@ -28,7 +28,7 @@
 	     </div>  
 	</div>
 	<div class="view">  
-	     <img src="img/aspenactivities.png" alt= "aspen activities">  
+	     <img src="img/selena.png" alt= "Selena Moeljadi">  
 	     <div class="mask">  
 	     <h2>Selena Moeljadi</h2>  
 	     <p>Beach Coordinator</p>  
