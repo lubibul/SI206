@@ -165,7 +165,6 @@ footer {
   top: 200px;
   width: 20%;
   margin: 20px;
-  /*background-color: #FF4E50;*/
   display: inline-block;
   color: #F9D423;
   font-weight: bold;
@@ -183,59 +182,65 @@ footer {
 #hotels {
   background-image: url("img/seattleHotel.jpg");
   overflow: hidden;
+  width: inherit;
 }
 
-#hotels p {
+#hotels > p {
+  position: absolute;
+  right: 0;
+  width: inherit;
   padding-top: 7px;
   padding-bottom: 7px;
-  padding-left: 50px;
-  padding-right: 75px;
-  color: #FF4E50;
-  background-color: #F9D423;
+  color: white;
+  background-color: #563d67;
 }
 
 #bars {
   background-image: url("img/seattleBar.jpg");
   overflow: hidden;
+  width: inherit;
 }
 
-#bars p {
+#bars > p {
   position: absolute;
   right: 0;
+  width: inherit;
   padding-top: 7px;
   padding-bottom: 7px;
-  padding-left: 50px;
-  padding-right: 80px;
-  color: #FF4E50;
-  background-color: #F9D423;
+  color: white;
+  background-color: #563d67;
 }
 
 #sports {
   background-image: url("img/seattleSports.jpg");
   overflow: hidden;
+  width: inherit;
 }
 
-#sports span {
+#sports > p {
+  position: absolute;
+  right: 0;
+  width: inherit;
   padding-top: 7px;
   padding-bottom: 7px;
-  padding-left: 50px;
-  padding-right: 80px;
-  color: #FF4E50;
-  background-color: #F9D423;
+  color: white;
+  background-color: #563d67;
 }
 
 #concerts {
   background-image: url("img/seattleConcert.jpg");
   overflow: hidden;
+  width: inherit;
 }
 
-#concerts span {
+#concerts > p {
+  position: absolute;
+  right: 0;
+  width: inherit;
   padding-top: 7px;
   padding-bottom: 7px;
-  padding-left: 50px;
-  padding-right: 80px;
-  color: #FF4E50;
-  background-color: #F9D423;
+  color: white;
+  background-color: #563d67;
 }
 
 

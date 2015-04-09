@@ -51,8 +51,8 @@
 
 		<div class="more-container-right">
 			<div class="more-right">
-				<h2 id="sports"><span>Sports</span></h2>
-				<h2 id="concerts"><span>More!</span></h2>
+				<h2 id="sports"><p>Sports</p></h2>
+				<h2 id="concerts"><p>More!</p></h2>
 			</div>
 		</div>
 
