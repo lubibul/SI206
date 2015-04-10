@@ -23,24 +23,18 @@
 	     <img src="img/ben.jpg" alt= "ben beale">  
 	     <div class="mask">  
 	     <h2>Ben Beale</h2>  
-	     <p>City Specialist</p>  
-	         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Meet Ben!</a>  
 	     </div>  
 	</div>
 	<div class="view">  
-	     <img src="img/selena.png" alt= "Selena Moeljadi">  
+	     <img src="img/selena.jpg" alt= "Selena Moeljadi">  
 	     <div class="mask">  
 	     <h2>Selena Moeljadi</h2>  
-	     <p>Beach Coordinator</p>  
-	         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Meet Selena!</a>  
 	     </div>  
 	</div>
 	<div class="view">  
 	     <img src="img/lulu.png" alt= "Lulu Tang">  
 	     <div class="mask">  
 	     <h2>Lulu Tang</h2>  
-	     <p>Snow Enthusiast</p>  
-	         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Meet Lulu!</a>  
      	</div>
      </div>  
 
