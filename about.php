@@ -19,8 +19,9 @@
 	</head>
 	<body>
 		<?php include 'header.php'; ?>
-		<h1>Our Team</h1>
-
+			<section class="bigtext">
+	<img src= "img/about-banner.png" alt= "About the Team Banner">	
+	</section>
 <div class="view-tenth">  
 	     <img src="img/ben.jpg" alt= "ben beale">  
 	     <div class="mask">  

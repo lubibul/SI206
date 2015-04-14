@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1">
-	<title>Panama City Beach, Floriday</title>
+	<title>Panama City Beach, Florida</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="beachstyles.css">
