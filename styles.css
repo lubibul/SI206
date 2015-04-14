@@ -298,13 +298,12 @@ footer {
 
 /*Mobile*/
 @media only screen and (max-width: 500px) {
-  .bx-wrapper * {
-    background-color: #E1F5C4;
-    visibility: hidden;
+  .bx-caption {
+    display: none;
   }
 
   .more-container-right, .more-container-left {
-    visibility: hidden;
+    display: none;
   }
 
   nav a {
