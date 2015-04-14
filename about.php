@@ -1,3 +1,5 @@
+<!-- **** SELENA MOELJADI **** -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -17,7 +19,7 @@
 	</head>
 	<body>
 		<?php include 'header.php'; ?>
-		<h1>About Our Team</h1>
+		<h1>Our Team</h1>
 
 <div class="view">  
 	     <img src="img/ben.jpg" alt= "ben beale">  
@@ -37,11 +39,6 @@
 	     <h2>Lulu Tang</h2>  
      	</div>
      </div>  
-
-
-
-
-
 		<?php include 'footer.php'; ?>
 	</body>
 </html>

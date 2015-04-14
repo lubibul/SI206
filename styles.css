@@ -1,6 +1,8 @@
 /* Color Palette: 
 http://www.colourlovers.com/palette/937624/Dance_To_Forget */
 
+/**** LULU TANG ****/
+
 body {
 	background-color: #E1F5C4;
   text-align: center;
@@ -138,6 +140,8 @@ footer {
 .map {
   display: block;
 }
+
+/**** BEN BEALE ****/
 
 /*
       Seattle page - Still need to put links with the sidebar text/images
@@ -278,12 +282,12 @@ footer {
 }
 
 
-
-
 /*
   In the middle of using media queries to make the bxslider hidden in mobile/tablet view. 
   I want to make the side bar images 4x4 in tablet view, and stacked on top of each other in mobile view 
 */
+
+/**** LULU TANG ****/
 
 /*Tablet*/
 @media only screen and (max-width: 768px) {
@@ -310,7 +314,22 @@ footer {
   nav a {
     display: inline-block;
   }
+
+  .more-container-left, .more-container-right {
+    position: static;
+    width: 40%;
+  }
+
+  #sports > p, 
+  #hotels > p,
+  #bars > p,
+  #concerts > p {
+    position: static;
+    width: 100%;
+  }
 }
+
+/**** BEN BEALE ****/
 
 /*Mobile*/
 @media only screen and (max-width: 500px) {
