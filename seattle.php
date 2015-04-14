@@ -63,35 +63,35 @@
 
 		<section class="visible-on-mobile">
 			<div class="view seattle">  
-			     <img src="img/aspenresort.png" alt= "aspen hotel">  
+			     <img src="img/seattleHotel.jpg" alt= "seattle hotel">  
 			     <div class="mask">  
 			     <h2>Hotels</h2>  
-			     <p>Explore your Alpine Getawayst</p>  
-			         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
+			     <p>Explore your Seattle hotels</p>  
+			         <a href="http://www.hotels.com/search.do?resolved-location=CITY%3A1481165%3ASRS%3AUNKNOWN&destination-id=1481165&q-destination=Seattle,%20Washington,%20United%20States%20of%20America&q-rooms=1&q-room-0-adults=2&q-room-0-children=0" class="info">Read More</a>  
 			     </div>  
 			</div>
 			<div class="view seattle">  
-			     <img src="img/seattleConcert.jpg" alt= "aspen activities">  
+			     <img src="img/seattleConcert.jpg" alt= "seattle concert">  
 			     <div class="mask">  
 			     <h2>Concerts</h2>  
 			     <p>What to do?</p>  
-			         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
+			         <a href="http://www.stubhub.com/search/doSearch?searchStr=seattle+concert&pageNumber=1&resultsPerPage=50&searchMode=event&start=0&rows=50&geo_exp=1" class="info">Read More</a>  
 			     </div>  
 			</div>
 			<div class="view seattle">  
-			     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+			     <img src="img/seattleBar.jpg" alt= "seattle bar">  
 			     <div class="mask">  
 			     <h2>Bars</h2>  
 			     <p> There's everything from Thai to German</p>  
-			         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
+			         <a href="http://www.barfinder.com/listings/search.aspx?keywords=seattle&name=&address=&city=&spc=&area=&zipcode_radius=15&zipcode=&lat=&lon=&tlat=&tlon=&searchi.x=80&searchi.y=23&searchi=Search&search=Search" class="info">Read More</a>  
 		     	</div>
 		     </div>  
 		     <div class="view seattle">  
-			     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+			     <img src="img/seattleSports.jpg" alt= "aspen wine and food">  
 			     <div class="mask">  
 			     <h2>Sports</h2>  
-			     <p> There's everything from Thai to German</p>  
-			         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
+			     <p> Home of the Super Bowl Champion Seahawks</p>  
+			         <a href="http://www.stubhub.com/search/doSearch?searchStr=seattle&pageNumber=1&resultsPerPage=50&searchMode=event&start=0&rows=50&geo_exp=1" class="info">Read More</a>  
 		     	</div>
 		     </div>  
 		</section>
