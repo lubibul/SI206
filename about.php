@@ -34,7 +34,8 @@
 	<div class="view-tenth">  
 	     <img src="img/selena.jpg" alt= "Selena Moeljadi">  
 	     <div class="mask">  
-	     <h2>Selena enjoys travelling the world and learning about different cultures. In
+	     <h2>Selena Moeljadi </h2>
+	     <p> Selena enjoys travelling the world and learning about different cultures. In
 	     her free time, you can find her napping in her Snuggie or dancing in her dancing shoes. </p>
 	     </div>  
 	</div>
