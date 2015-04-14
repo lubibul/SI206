@@ -201,6 +201,7 @@ footer {
 
 #hotels {
   background-image: url("img/seattleHotel.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
@@ -221,6 +222,7 @@ footer {
 
 #bars {
   background-image: url("img/seattleBar.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
@@ -241,6 +243,7 @@ footer {
 
 #sports {
   background-image: url("img/seattleSports.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
@@ -261,6 +264,7 @@ footer {
 
 #concerts {
   background-image: url("img/seattleConcert.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
@@ -294,11 +298,7 @@ footer {
 /**** LULU TANG ****/
 
 /*Big Tablet*/
-@media only screen and (max-width: 960px) {
-  .content {
-    width: 95%;
-  }
-
+@media only screen and (max-width: 1190px) {
   .more-container-left, .more-container-right {
     position: static;
     width: 40%;
@@ -315,6 +315,10 @@ footer {
 
 /*Smaller Tablet*/
 @media only screen and (max-width: 768px) {
+  .content {
+    width: 95%;
+  }
+
   .hamburger {
     display: block;
     float: left;
@@ -345,7 +349,7 @@ footer {
   }
 
   .more-container-right, .more-container-left {
-    display: block;
+    display: none;
     float: none;
   }
 
@@ -355,5 +359,9 @@ footer {
 
   .visible-on-mobile {
     display: block;
+  }
+
+  .view.seattle h2 {
+    background-color: #563d67;
   }
 }

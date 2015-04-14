@@ -62,26 +62,34 @@
 		</div>
 
 		<section class="visible-on-mobile">
-			<div class="view">  
+			<div class="view seattle">  
 			     <img src="img/aspenresort.png" alt= "aspen hotel">  
 			     <div class="mask">  
-			     <h2>Hotel</h2>  
+			     <h2>Hotels</h2>  
 			     <p>Explore your Alpine Getawayst</p>  
 			         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
 			     </div>  
 			</div>
-			<div class="view">  
-			     <img src="img/aspenactivities.png" alt= "aspen activities">  
+			<div class="view seattle">  
+			     <img src="img/seattleConcert.jpg" alt= "aspen activities">  
 			     <div class="mask">  
-			     <h2>Activities</h2>  
+			     <h2>Concerts</h2>  
 			     <p>What to do?</p>  
 			         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
 			     </div>  
 			</div>
-			<div class="view">  
+			<div class="view seattle">  
 			     <img src="img/aspenfood.png" alt= "aspen wine and food">  
 			     <div class="mask">  
-			     <h2>Restaurants</h2>  
+			     <h2>Bars</h2>  
+			     <p> There's everything from Thai to German</p>  
+			         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
+		     	</div>
+		     </div>  
+		     <div class="view seattle">  
+			     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+			     <div class="mask">  
+			     <h2>Sports</h2>  
 			     <p> There's everything from Thai to German</p>  
 			         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
 		     	</div>
