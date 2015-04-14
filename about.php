@@ -26,21 +26,24 @@
 	     <img src="img/ben.jpg" alt= "ben beale">  
 	     <div class="mask">  
 	     <h2>Ben Beale</h2>  
-	     <p> Ben ... </p>
+	     <p> Ben brings his technical expertise to us from a successful 
+	     startup in the area. He loves hiking, camping, doing anything 
+	     outdoors, and his newest hobby is geocaching. </p>
 	     </div>  
 	</div>
 	<div class="view-tenth">  
 	     <img src="img/selena.jpg" alt= "Selena Moeljadi">  
 	     <div class="mask">  
-	     <h2>Selena Moeljadi</h2>  
-	     <p> A current SI major and dance major, Selena enoys...
+	     <h2>Selena enjoys travelling the world and learning about different cultures. In
+	     her free time, you can find her napping in her Snuggie or dancing in her dancing shoes. </p>
 	     </div>  
 	</div>
 	<div class="view-tenth">  
 	     <img src="img/lulu.png" alt= "Lulu Tang">  
 	     <div class="mask">  
 	     <h2>Lulu Tang</h2>  
-	     <p> A current Computer Science major, Lulu...</p>
+	     <p> Lulu is a self-reknowned tetris champion and likes cats a 
+	     lot. She has travelled to China, parts of Europe, Canada, and Mexico.</p>
      	</div>
      </div>  
 
