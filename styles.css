@@ -266,8 +266,6 @@ footer {
 }
 
 
-
-
 /*
   In the middle of using media queries to make the bxslider hidden in mobile/tablet view. 
   I want to make the side bar images 4x4 in tablet view, and stacked on top of each other in mobile view 
@@ -299,6 +297,19 @@ footer {
 
   nav a {
     display: inline-block;
+  }
+
+  .more-container-left, .more-container-right {
+    position: static;
+    width: 40%;
+  }
+
+  #sports > p, 
+  #hotels > p,
+  #bars > p,
+  #concerts > p {
+    position: static;
+    width: 100%;
   }
 }
 
