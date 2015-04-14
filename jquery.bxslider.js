@@ -1,3 +1,5 @@
+/**** BEN BEALE ****/
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com

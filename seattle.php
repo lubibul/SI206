@@ -1,3 +1,5 @@
+<!-- **** BEN BEALE **** -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -6,6 +8,7 @@
 		<title>Book Your Trip</title>
 		<link rel="stylesheet" type="text/css" href="default.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="additionalinfo.css">
 		<!-- jQuery library (served from Google) -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 		<!-- bxSlider Javascript file -->
@@ -21,10 +24,10 @@
 		</section>
 		
 		<ul class="bxslider">
-			<li><img src="img/seattle-skyline.jpg" /><p class="bx-caption">Check out the Space Needle!</p></li>
-			<li><img src="img/seattle-waterfront.jpg" /><p class="bx-caption">Take a boat ride!</p></li>
-			<li><img src="img/seattle-seahawks.jpg" /><p class="bx-caption">Cheer for our winning<br>sports teams!</p></li>
-			<li><img src="img/seattle-emp.jpg" /><p class="bx-caption">Enrich yourself with<br>a unique exhibit!</p></li>
+			<li><img src="img/seattle-skyline.jpg" alt="seattle skykine"/><p class="bx-caption">Check out the Space Needle!</p></li>
+			<li><img src="img/seattle-waterfront.jpg" alt="settle waterfront"/><p class="bx-caption">Take a boat ride!</p></li>
+			<li><img src="img/seattle-seahawks.jpg" alt="seattle seahawks"/><p class="bx-caption">Cheer for our winning<br>sports teams!</p></li>
+			<li><img src="img/seattle-emp.jpg" alt="seattle museum"/><p class="bx-caption">Enrich yourself with<br>a unique exhibit!</p></li>
 		</ul>
 
 		<div class="content">
@@ -45,18 +48,53 @@
 
 		<div class="more-container-left">
 			<div class="more-left">
-				<h2 id="hotels"><p>Hotels</p></h2>
-				<h2 id="bars"><p>Bars</p></h2>
+				<h2 id="hotels"><a href="http://bit.ly/1aPBuuN">Hotels</a></h2>
+				<h2 id="bars"><a href="http://bit.ly/1CWkNEw">Bars</a></h2>
 
 			</div>
 		</div>
 
 		<div class="more-container-right">
 			<div class="more-right">
-				<h2 id="sports"><p>Sports</p></h2>
-				<h2 id="concerts"><p>More!</p></h2>
+				<h2 id="sports"><a href="http://bit.ly/1zdQAjX">Sports</a></h2>
+				<h2 id="concerts"><a href="http://bit.ly/1b0gthK">More!</a></h2>
 			</div>
 		</div>
+
+		<section class="visible-on-mobile">
+			<div class="view seattle">  
+			     <img src="img/seattleHotel.jpg" alt= "seattle hotel">  
+			     <div class="mask">  
+			     <h2>Hotels</h2>  
+			     <p>Explore your Seattle hotels</p>  
+			         <a href="http://bit.ly/1aPBuuN" class="info">Read More</a>  
+			     </div>  
+			</div>
+			<div class="view seattle">  
+			     <img src="img/seattleConcert.jpg" alt= "seattle concert">  
+			     <div class="mask">  
+			     <h2>Concerts</h2>  
+			     <p>What to do?</p>  
+			         <a href="http://bit.ly/1b0gthK" class="info">Read More</a>  
+			     </div>  
+			</div>
+			<div class="view seattle">  
+			     <img src="img/seattleBar.jpg" alt= "seattle bar">  
+			     <div class="mask">  
+			     <h2>Bars</h2>  
+			     <p> There's everything from Thai to German</p>  
+			         <a href="http://bit.ly/1CWkNEw" class="info">Read More</a>  
+		     	</div>
+		     </div>  
+		     <div class="view seattle">  
+			     <img src="img/seattleSports.jpg" alt= "aspen wine and food">  
+			     <div class="mask">  
+			     <h2>Sports</h2>  
+			     <p> Home of the Super Bowl Champion Seahawks</p>  
+			         <a href="http://bit.ly/1zdQAjX" class="info">Read More</a>  
+		     	</div>
+		     </div>  
+		</section>
 
 		<?php include 'footer.php'; ?>
 	</body>

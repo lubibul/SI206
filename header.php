@@ -1,6 +1,8 @@
+<!-- **** LULU TANG ****-->
+
 <?php
 	echo "<header>";
-	echo "<img class=\"hamburger\" src=\"img/hamburger.png\" onClick=\"toggleNav()\">";
+	echo "<img class=\"hamburger\" src=\"img/hamburger.png\" onClick=\"toggleNav()\" alt=\"navigation hamburger\" />";
 	echo "<a href=\"index.php\"><img class=\"logo\" src='img/logo.png' alt='company logo'/></a>";
 	echo "<div class=\"clear\"></div>";
 	echo "</header>";

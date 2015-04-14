@@ -1,6 +1,8 @@
 /* Color Palette: 
 http://www.colourlovers.com/palette/937624/Dance_To_Forget */
 
+/**** LULU TANG ****/
+
 body {
 	background-color: #E1F5C4;
   text-align: center;
@@ -104,6 +106,10 @@ footer {
   clear: both;
 }
 
+.visible-on-mobile {
+  display: none;
+}
+
 /*Photo Gallery on front page*/
 
 #top-photos {
@@ -138,6 +144,13 @@ footer {
 .map {
   display: block;
 }
+
+.checkbox {
+  display: inline-block;
+  width: 20%;
+}
+
+/**** BEN BEALE ****/
 
 /*
       Seattle page - Still need to put links with the sidebar text/images
@@ -193,27 +206,30 @@ footer {
 
 #hotels {
   background-image: url("img/seattleHotel.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
 
-#hotels > p {
+#hotels > a {
   position: absolute;
   right: 0;
   width: inherit;
   padding-top: 7px;
   padding-bottom: 7px;
   color: white;
-  background-color: #563d67;
+  background-color: #563d67;  
+  color: white;
 }
 
 #bars {
   background-image: url("img/seattleBar.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
 
-#bars > p {
+#bars > a {
   position: absolute;
   right: 0;
   width: inherit;
@@ -221,15 +237,17 @@ footer {
   padding-bottom: 7px;
   color: white;
   background-color: #563d67;
+  color: white;
 }
 
 #sports {
   background-image: url("img/seattleSports.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
 
-#sports > p {
+#sports > a {
   position: absolute;
   right: 0;
   width: inherit;
@@ -237,15 +255,17 @@ footer {
   padding-bottom: 7px;
   color: white;
   background-color: #563d67;
+  color: white;
 }
 
 #concerts {
   background-image: url("img/seattleConcert.jpg");
+  background-position: center;
   overflow: hidden;
   width: inherit;
 }
 
-#concerts > p {
+#concerts > a {
   position: absolute;
   right: 0;
   width: inherit;
@@ -253,6 +273,7 @@ footer {
   padding-bottom: 7px;
   color: white;
   background-color: #563d67;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -262,14 +283,30 @@ footer {
 }
 
 
-
-
 /*
   In the middle of using media queries to make the bxslider hidden in mobile/tablet view. 
   I want to make the side bar images 4x4 in tablet view, and stacked on top of each other in mobile view 
 */
 
-/*Tablet*/
+/**** LULU TANG ****/
+
+/*Big Tablet*/
+@media only screen and (max-width: 1190px) {
+  .more-container-left, .more-container-right {
+    position: static;
+    width: 40%;
+  }
+
+  #sports > a, 
+  #hotels > a,
+  #bars > a,
+  #concerts > a {
+    position: static;
+    width: 100%;
+  }
+}
+
+/*Smaller Tablet*/
 @media only screen and (max-width: 768px) {
   .content {
     width: 95%;
@@ -296,18 +333,28 @@ footer {
   }
 }
 
+/**** BEN BEALE ****/
+
 /*Mobile*/
 @media only screen and (max-width: 500px) {
-  .bx-wrapper * {
-    background-color: #E1F5C4;
-    visibility: hidden;
+  .bx-caption {
+    display: none;
   }
 
   .more-container-right, .more-container-left {
-    visibility: hidden;
+    display: none;
+    float: none;
   }
 
   nav a {
     display: block;
+  }
+
+  .visible-on-mobile {
+    display: block;
+  }
+
+  .view.seattle h2 {
+    background-color: #563d67;
   }
 }
