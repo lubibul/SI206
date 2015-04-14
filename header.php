@@ -1,3 +1,5 @@
+<!-- **** LULU TANG ****-->
+
 <?php
 	echo "<header>";
 	echo "<img class=\"hamburger\" src=\"img/hamburger.png\" onClick=\"toggleNav()\">";

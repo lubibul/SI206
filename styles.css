@@ -1,6 +1,8 @@
 /* Color Palette: 
 http://www.colourlovers.com/palette/937624/Dance_To_Forget */
 
+/**** LULU TANG ****/
+
 body {
 	background-color: #E1F5C4;
   text-align: center;
@@ -139,6 +141,8 @@ footer {
   display: block;
 }
 
+/**** BEN BEALE ****/
+
 /*
       Seattle page - Still need to put links with the sidebar text/images
 
@@ -269,6 +273,8 @@ footer {
   I want to make the side bar images 4x4 in tablet view, and stacked on top of each other in mobile view 
 */
 
+/**** LULU TANG ****/
+
 /*Tablet*/
 @media only screen and (max-width: 768px) {
   .content {
@@ -295,6 +301,8 @@ footer {
     display: inline-block;
   }
 }
+
+/**** BEN BEALE ****/
 
 /*Mobile*/
 @media only screen and (max-width: 500px) {
