@@ -26,9 +26,9 @@
 	<img src= "img/pcb-banner.png" alt= "PCB Banner">	
 	</section>
 	<ul class="bxslider">
-	    <li><img src="img/pcb-beach.png" alt= "pcbresort"></a></li>          
-	    <li><img src="img/pcb-party.jpg" alt= "pcbrealness"></a></li>          
-	    <li><img src="img/pcb-nightlife.jpg" alt= "nighttime"></a></li>          
+	    <li><img src="img/pcb-beach.png" alt= "pcbresort"></li>          
+	    <li><img src="img/pcb-party.jpg" alt= "pcbrealness"></li>          
+	    <li><img src="img/pcb-nightlife.jpg" alt= "nighttime"></li>          
 	</ul>
 
 	<div class="content">
@@ -76,7 +76,7 @@
 	         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
 	     </div>  
 	</div>
-	</body>
 
-	<?php include "footer.php" ; ?>
+	<?php include "footer.php"; ?>
+	</body>
 </html>
