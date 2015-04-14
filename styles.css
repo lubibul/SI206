@@ -145,6 +145,11 @@ footer {
   display: block;
 }
 
+.checkbox {
+  display: inline-block;
+  width: 20%;
+}
+
 /**** BEN BEALE ****/
 
 /*

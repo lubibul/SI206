@@ -96,9 +96,14 @@
 				<input name = "group-size" type = "number" id = "groupsize" required><br>
 			</label>
 			<label>Personalize Your Plan</label>
-				<input type = "checkbox" name="" value="Flight">Flight<br>
-				<input type = "checkbox" name="" value="Hotel">Hotel<br>
-				<input type = "checkbox" name="" value="Car">Car<br>
+				<input id="flight" type = "checkbox" name="" value="Flight">
+				<label class="checkbox" for="flight">Flight</label>
+				<br>
+				<input id="hotel" type = "checkbox" name="" value="Hotel">
+				<label class="checkbox" for="hotel">Hotel</label>
+				<br>
+				<input id="car" type = "checkbox" name="" value="Car">
+				<label class="checkbox" for="car">Car</label>
 			<label>Promo Code: 
 				<input type = "text" id ="promo"><br>
 			</label>
