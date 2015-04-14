@@ -45,16 +45,16 @@
 
 		<div class="more-container-left">
 			<div class="more-left">
-				<h2 id="hotels"><p>Hotels</p></h2>
-				<h2 id="bars"><p>Bars</p></h2>
+				<h2 id="hotels"><p><a href="http://www.hotels.com/search.do?resolved-location=CITY%3A1481165%3ASRS%3AUNKNOWN&destination-id=1481165&q-destination=Seattle,%20Washington,%20United%20States%20of%20America&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">Hotels</a></p></h2>
+				<h2 id="bars"><p><a href="http://www.barfinder.com/listings/search.aspx?keywords=seattle&name=&address=&city=&spc=&area=&zipcode_radius=15&zipcode=&lat=&lon=&tlat=&tlon=&searchi.x=80&searchi.y=23&searchi=Search&search=Search">Bars</a></p></h2>
 
 			</div>
 		</div>
 
 		<div class="more-container-right">
 			<div class="more-right">
-				<h2 id="sports"><p>Sports</p></h2>
-				<h2 id="concerts"><p>More!</p></h2>
+				<h2 id="sports"><p><a href="http://www.stubhub.com/search/doSearch?searchStr=seattle&pageNumber=1&resultsPerPage=50&searchMode=event&start=0&rows=50&geo_exp=1">Sports</a></p></h2>
+				<h2 id="concerts"><p><a href="http://www.stubhub.com/search/doSearch?searchStr=seattle+concert&pageNumber=1&resultsPerPage=50&searchMode=event&start=0&rows=50&geo_exp=1">More!</a></p></h2>
 			</div>
 		</div>
 
