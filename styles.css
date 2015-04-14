@@ -206,17 +206,14 @@ footer {
   width: inherit;
 }
 
-#hotels > p {
+#hotels > a {
   position: absolute;
   right: 0;
   width: inherit;
   padding-top: 7px;
   padding-bottom: 7px;
   color: white;
-  background-color: #563d67;
-}
-
-#hotels > p > a {
+  background-color: #563d67;  
   color: white;
 }
 
@@ -227,7 +224,7 @@ footer {
   width: inherit;
 }
 
-#bars > p {
+#bars > a {
   position: absolute;
   right: 0;
   width: inherit;
@@ -235,9 +232,6 @@ footer {
   padding-bottom: 7px;
   color: white;
   background-color: #563d67;
-}
-
-#bars > p > a {
   color: white;
 }
 
@@ -248,7 +242,7 @@ footer {
   width: inherit;
 }
 
-#sports > p {
+#sports > a {
   position: absolute;
   right: 0;
   width: inherit;
@@ -256,9 +250,6 @@ footer {
   padding-bottom: 7px;
   color: white;
   background-color: #563d67;
-}
-
-#sports > p > a {
   color: white;
 }
 
@@ -269,7 +260,7 @@ footer {
   width: inherit;
 }
 
-#concerts > p {
+#concerts > a {
   position: absolute;
   right: 0;
   width: inherit;
@@ -277,9 +268,6 @@ footer {
   padding-bottom: 7px;
   color: white;
   background-color: #563d67;
-}
-
-#concerts > p > a {
   color: white;
 }
 
@@ -304,10 +292,10 @@ footer {
     width: 40%;
   }
 
-  #sports > p, 
-  #hotels > p,
-  #bars > p,
-  #concerts > p {
+  #sports > a, 
+  #hotels > a,
+  #bars > a,
+  #concerts > a {
     position: static;
     width: 100%;
   }

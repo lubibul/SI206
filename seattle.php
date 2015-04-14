@@ -27,7 +27,7 @@
 			<li><img src="img/seattle-skyline.jpg" alt="seattle skykine"/><p class="bx-caption">Check out the Space Needle!</p></li>
 			<li><img src="img/seattle-waterfront.jpg" alt="settle waterfront"/><p class="bx-caption">Take a boat ride!</p></li>
 			<li><img src="img/seattle-seahawks.jpg" alt="seattle seahawks"/><p class="bx-caption">Cheer for our winning<br>sports teams!</p></li>
-			<li><img src="img/seattle-emp.jpg" class="seattle museum"/><p class="bx-caption">Enrich yourself with<br>a unique exhibit!</p></li>
+			<li><img src="img/seattle-emp.jpg" alt="seattle museum"/><p class="bx-caption">Enrich yourself with<br>a unique exhibit!</p></li>
 		</ul>
 
 		<div class="content">
@@ -48,16 +48,16 @@
 
 		<div class="more-container-left">
 			<div class="more-left">
-				<h2 id="hotels"><p><a href="http://bit.ly/1aPBuuN">Hotels</a></p></h2>
-				<h2 id="bars"><p><a href="http://bit.ly/1CWkNEw">Bars</a></p></h2>
+				<h2 id="hotels"><a href="http://bit.ly/1aPBuuN">Hotels</a></h2>
+				<h2 id="bars"><a href="http://bit.ly/1CWkNEw">Bars</a></h2>
 
 			</div>
 		</div>
 
 		<div class="more-container-right">
 			<div class="more-right">
-				<h2 id="sports"><p><a href="http://bit.ly/1zdQAjX">Sports</a></p></h2>
-				<h2 id="concerts"><p><a href="http://bit.ly/1b0gthK">More!</a></p></h2>
+				<h2 id="sports"><a href="http://bit.ly/1zdQAjX">Sports</a></h2>
+				<h2 id="concerts"><a href="http://bit.ly/1b0gthK">More!</a></h2>
 			</div>
 		</div>
 
