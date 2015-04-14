@@ -24,9 +24,9 @@
 <img src="img/aspen-banner.png" alt= "Aspen Banner">
 </section>
 	<ul class="bxslider">
-        <li><img src="img/aspen-1.png" alt= "aspensnow1"></a></li>    
-        <li><img src="img/aspen-2.png" alt= "aspensnow2"></a></li>  
-        <li><img src="img/aspen-3.png" alt= "aspensnow3"></a></li>    
+        <li><img src="img/aspen-1.png" alt= "aspensnow1"></li>    
+        <li><img src="img/aspen-2.png" alt= "aspensnow2"></li>  
+        <li><img src="img/aspen-3.png" alt= "aspensnow3"></li>    
 	</ul>
 
 	<script type="text/javascript">
@@ -73,8 +73,7 @@
 	         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
      	</div>
      </div>  
-
+     
+     <?php include "footer.php"; ?>
 	</body>
-
-	<?php include "footer.php"; ?>
 </html>
