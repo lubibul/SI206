@@ -15,7 +15,7 @@
 	<?php include 'header.php'; ?>
 	
 	<section class="bigtext">
-		<img src="img/travelagencylogo.png">
+		<img src="img/travelagencylogo.png" alt="Travel Agency Banner"/>
 	</section>
 	<section class="card-container">
 		<a href="beach.php">
