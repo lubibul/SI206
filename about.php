@@ -19,27 +19,27 @@
 		<?php include 'header.php'; ?>
 		<h1>About Our Team</h1>
 
-<div class="view">  
+<div class="view-tenth">  
 	     <img src="img/ben.jpg" alt= "ben beale">  
 	     <div class="mask">  
 	     <h2>Ben Beale</h2>  
+	     <p> Ben ... </p>
 	     </div>  
 	</div>
-	<div class="view">  
+	<div class="view-tenth">  
 	     <img src="img/selena.jpg" alt= "Selena Moeljadi">  
 	     <div class="mask">  
 	     <h2>Selena Moeljadi</h2>  
+	     <p> A current SI major and dance major, Selena enoys...
 	     </div>  
 	</div>
-	<div class="view">  
+	<div class="view-tenth">  
 	     <img src="img/lulu.png" alt= "Lulu Tang">  
 	     <div class="mask">  
 	     <h2>Lulu Tang</h2>  
+	     <p> A current Computer Science major, Lulu...</p>
      	</div>
      </div>  
-
-
-
 
 
 		<?php include 'footer.php'; ?>
