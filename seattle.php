@@ -8,6 +8,7 @@
 		<title>Book Your Trip</title>
 		<link rel="stylesheet" type="text/css" href="default.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="additionalinfo.css">
 		<!-- jQuery library (served from Google) -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 		<!-- bxSlider Javascript file -->
@@ -59,6 +60,33 @@
 				<h2 id="concerts"><p><a href="http://www.stubhub.com/search/doSearch?searchStr=seattle+concert&pageNumber=1&resultsPerPage=50&searchMode=event&start=0&rows=50&geo_exp=1">More!</a></p></h2>
 			</div>
 		</div>
+
+		<section class="visible-on-mobile">
+			<div class="view">  
+			     <img src="img/aspenresort.png" alt= "aspen hotel">  
+			     <div class="mask">  
+			     <h2>Hotel</h2>  
+			     <p>Explore your Alpine Getawayst</p>  
+			         <a href="http://www.tripadvisor.com/Hotels-g29141-Aspen_Colorado-Hotels.html" class="info">Read More</a>  
+			     </div>  
+			</div>
+			<div class="view">  
+			     <img src="img/aspenactivities.png" alt= "aspen activities">  
+			     <div class="mask">  
+			     <h2>Activities</h2>  
+			     <p>What to do?</p>  
+			         <a href="http://www.tripadvisor.com/Attractions-g29141-Activities-Aspen_Colorado.html" class="info">Read More</a>  
+			     </div>  
+			</div>
+			<div class="view">  
+			     <img src="img/aspenfood.png" alt= "aspen wine and food">  
+			     <div class="mask">  
+			     <h2>Restaurants</h2>  
+			     <p> There's everything from Thai to German</p>  
+			         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
+		     	</div>
+		     </div>  
+		</section>
 
 		<?php include 'footer.php'; ?>
 	</body>

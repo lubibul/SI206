@@ -106,6 +106,10 @@ footer {
   clear: both;
 }
 
+.visible-on-mobile {
+  display: none;
+}
+
 /*Photo Gallery on front page*/
 
 #top-photos {
@@ -289,12 +293,28 @@ footer {
 
 /**** LULU TANG ****/
 
-/*Tablet*/
-@media only screen and (max-width: 768px) {
+/*Big Tablet*/
+@media only screen and (max-width: 960px) {
   .content {
     width: 95%;
   }
 
+  .more-container-left, .more-container-right {
+    position: static;
+    width: 40%;
+  }
+
+  #sports > p, 
+  #hotels > p,
+  #bars > p,
+  #concerts > p {
+    position: static;
+    width: 100%;
+  }
+}
+
+/*Smaller Tablet*/
+@media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
     float: left;
@@ -314,19 +334,6 @@ footer {
   nav a {
     display: inline-block;
   }
-
-  .more-container-left, .more-container-right {
-    position: static;
-    width: 40%;
-  }
-
-  #sports > p, 
-  #hotels > p,
-  #bars > p,
-  #concerts > p {
-    position: static;
-    width: 100%;
-  }
 }
 
 /**** BEN BEALE ****/
@@ -343,6 +350,10 @@ footer {
   }
 
   nav a {
+    display: block;
+  }
+
+  .visible-on-mobile {
     display: block;
   }
 }
