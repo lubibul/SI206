@@ -90,3 +90,17 @@ box-shadow: inset 0px 0px 0px 0px rgb(128,128,128);
 color: white;
 }
 
+.outer-div
+{
+  padding: 30px;
+  background-color: white;
+  border: 1em;
+}
+.inner-div
+{
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  height: 50px;
+  background-color: #E8BDA9;
+}

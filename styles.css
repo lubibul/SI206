@@ -328,6 +328,16 @@ footer {
     display: none;
   }
 
+  .outer-div{
+    display: none;
+  }
+  .inner-div{
+    display: none;
+  }
+
+#testimonialbanner{
+  display: none;
+}
   nav a {
     display: inline-block;
   }

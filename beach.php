@@ -1,4 +1,4 @@
-<!-- **** SELENA MOELJADI **** -->
+=<!-- **** SELENA MOELJADI **** -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,9 +8,9 @@
 	<title>Panama City Beach, Florida</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="beachstyles.css">
 	<link rel="stylesheet" type="text/css" href="additionalinfo.css">
 	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="beachstyles.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
@@ -78,40 +78,34 @@
 	</div>
 
 </br>
-	<img src= "img/testimonials-banner.png" alt= "Testimonials Banner">	
-<div class="content2">
-<div class="info2">
-	<h3>Sam from Long Island, NY says: Thanks for all the memories TRAVEL AGENCY! You rock!</h3> 
-<img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px>
-</br>
-<caption> Our customer,Sam, in PCB </caption>
-</br>
+	<img src= "img/testimonials-banner.png" alt= "Testimonials Banner" id= "testimonialbanner">	
+<div class="outer-div">	
+<div class="inner-div"><!-- <img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px> -->
+<h3>Sam Smith from Long Island, NY says: Thanks for all the memories TRAVEL AGENCY! You rock!</h3> 
 </div>
 </div>
 
-<div class="content2">
-<div class="info2">
-	<h3> Gary from Portland, OR says: World class entertainment planned by the one and only TRAVEL AGENCY!</h3> 
-<img src="img/gary-pcbgoer.png" alt= "GARY" height= 145px  width = 230px>
-</br>
-<caption> Our customer,Gary, waterskiing for the first time! </caption>
-	</div>
+<div class="outer-div">	
+<div class="inner-div"><!-- <img src="img/gary-pcbgoer.png" alt= "GARY" height= 145px  width = 230px> -->
+	<h3> Gary Smorgasbord from Portland, OR says: I don't remember much from the trip, but from what I hear, it sounded amazing!! THanks Travel Agency!</h3> 
 </div>
 </div>
 
-</br>
+<div class="outer-div">	
+<div class="inner-div"><!-- <img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px> -->
+<h3>Cara Weeldon from NYC says: Amazing adventure it PCB, Florida. I got to jetski, waterski, and swim with dolphins! </h3> 
+</div>
+</div>
 
-		<div class="commentbox">
-		<div class="info">
-		<h2> Write a Comment </h2>
-		<form> 
-<textarea name="comments" id="comments" placeholder="What's it like down in PCB?">
+<div class="info">
+<h2> Write a Comment </h2>
+<form> 
+<textarea name="comments" id="comments" placeholder="What's it like up in Aspen?">
 </textarea><br />
 <input type="submit" value="Submit" />
 </form>
 </div>
 </div>
-</br>
 	<?php include "footer.php"; ?>
 	</body>
 </html>
