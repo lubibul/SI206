@@ -9,6 +9,8 @@
 		<link rel="stylesheet" type="text/css" href="default.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" type="text/css" href="additionalinfo.css">
+		<link rel="stylesheet" type="text/css" href="beachstyles.css">
+
 		<!-- jQuery library (served from Google) -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
 		<!-- bxSlider Javascript file -->
@@ -95,6 +97,16 @@
 		     	</div>
 		     </div>  
 		</section>
+		<div class="info">
+		<h2> Write a Comment </h2>
+		<form> 
+<textarea name="comments" id="comments" placeholder="What's it like up in Seattle?">
+</textarea><br />
+<input type="submit" value="Submit" />
+</form>
+</div>
+</div>
+</br>
 
 		<?php include 'footer.php'; ?>
 	</body>

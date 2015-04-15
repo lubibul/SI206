@@ -73,6 +73,17 @@
 	         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
      	</div>
      </div>  
+
+     		<div class="info">
+		<h2> Write a Comment </h2>
+		<form> 
+<textarea name="comments" id="comments" placeholder="What's it like up in Aspen?">
+</textarea><br />
+<input type="submit" value="Submit" />
+</form>
+</div>
+</div>
+</br>
      
      <?php include "footer.php"; ?>
 	</body>

@@ -77,6 +77,41 @@
 	     </div>  
 	</div>
 
+</br>
+	<img src= "img/testimonials-banner.png" alt= "Testimonials Banner">	
+<div class="content2">
+<div class="info2">
+	<h3>Sam from Long Island, NY says: Thanks for all the memories TRAVEL AGENCY! You rock!</h3> 
+<img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px>
+</br>
+<caption> Our customer,Sam, in PCB </caption>
+</br>
+</div>
+</div>
+
+<div class="content2">
+<div class="info2">
+	<h3> Gary from Portland, OR says: World class entertainment planned by the one and only TRAVEL AGENCY!</h3> 
+<img src="img/gary-pcbgoer.png" alt= "GARY" height= 145px  width = 230px>
+</br>
+<caption> Our customer,Gary, waterskiing for the first time! </caption>
+	</div>
+</div>
+</div>
+
+</br>
+
+		<div class="commentbox">
+		<div class="info">
+		<h2> Write a Comment </h2>
+		<form> 
+<textarea name="comments" id="comments" placeholder="What's it like down in PCB?">
+</textarea><br />
+<input type="submit" value="Submit" />
+</form>
+</div>
+</div>
+</br>
 	<?php include "footer.php"; ?>
 	</body>
 </html>
