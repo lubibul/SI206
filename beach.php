@@ -76,7 +76,7 @@
 	         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
 	     </div>  
 	</div>
-
+</br>
 </br>
 	<img src= "img/testimonials-banner.png" alt= "Testimonials Banner" id= "testimonialbanner">	
 <div class="outer-div">	
