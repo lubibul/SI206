@@ -100,8 +100,11 @@
 		     	</div>
 		     </div>  
 		</section>
+
+		<h1>TESTIMONIALS</h1>
+
 		<div class="info">
-			<h2> Write a Comment </h2>
+			<label for="comments"><h2> Write a Comment </h2></label>
 			<form> 
 				<textarea name="comments" id="comments" placeholder="What's it like up in Seattle?">
 				</textarea><br />

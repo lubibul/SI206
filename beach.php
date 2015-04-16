@@ -79,7 +79,9 @@
 	         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
 	     </div>  
 	</div>
-	<img src= "img/testimonials-banner.png" alt= "Testimonials Banner" id= "testimonialbanner">	
+
+	<h1>TESTIMONIALS</h1>
+
 <div class="outer-div">	
 <div class="inner-div"><!-- <img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px> -->
 <h3>Sam Smith from Long Island, NY says: Thanks for all the memories TRAVEL AGENCY! You rock!</h3> 
@@ -99,7 +101,7 @@
 </div>
 
 <div class="info">
-<h2> Write a Comment </h2>
+<label for="comments"><h2> Write a Comment </h2></label>
 <form> 
 <textarea name="comments" id="comments" placeholder="How was your PCB experience?">
 </textarea><br />
