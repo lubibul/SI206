@@ -85,8 +85,6 @@
 <input type="submit" value="Submit" />
 </form>
 </div>
-</div>
-</br>
      
      <?php include "footer.php"; ?>
 	</body>

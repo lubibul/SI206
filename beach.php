@@ -79,8 +79,6 @@
 	         <a href="http://www.tripadvisor.com/Restaurants-g34543-Panama_City_Beach_Florida.html" class="info">Read More</a>  
 	     </div>  
 	</div>
-</br>
-</br>
 	<img src= "img/testimonials-banner.png" alt= "Testimonials Banner" id= "testimonialbanner">	
 <div class="outer-div">	
 <div class="inner-div"><!-- <img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px> -->
@@ -107,7 +105,6 @@
 </textarea><br />
 <input type="submit" value="Submit" />
 </form>
-</div>
 </div>
 	<?php include "footer.php"; ?>
 	</body>
