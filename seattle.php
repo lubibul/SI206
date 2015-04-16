@@ -104,7 +104,7 @@
 		<h1>TESTIMONIALS</h1>
 
 		<div class="info">
-			<label for="comments"><h2> Write a Comment </h2></label>
+			<h2><label for="comments">Write a Comment</label></h2>
 			<form> 
 				<textarea name="comments" id="comments" label= "Comments" placeholder="What's it like up in Seattle?">
 				</textarea><br />
