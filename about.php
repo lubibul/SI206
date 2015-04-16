@@ -7,8 +7,8 @@
 		<meta name="viewport" content="initial-scale=1">
 		<title>About Our Team</title>
 		<link rel="stylesheet" type="text/css" href="default.css">
-		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" type="text/css" href="aboutme.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 
 		<!-- jQuery library (served from Google) -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>
@@ -34,6 +34,16 @@
 	     outdoors, and his newest hobby is geocaching. </p>
 	     </div>  
 	</div>
+
+	     <div class="mask2">  
+	     <h2>Ben Beale</h2>  
+	     <p> Ben brings his technical expertise to us from a successful 
+	     startup in the area. He loves hiking, camping, doing anything 
+	     outdoors, and his newest hobby is geocaching. </p>
+	     </div>  
+	</div>
+
+
 	<div class="view-second">  
 	     <img src="img/selena.jpg" alt= "Selena Moeljadi">  
 	     <div class="mask">  
@@ -42,6 +52,14 @@
 	     her free time, you can find her napping in her Snuggie or dancing in her dancing shoes. </p>
 	     </div>  
 	</div>
+
+	     <div class="mask2">  
+	     <h2>Selena Moeljadi </h2>
+	     <p> Selena enjoys travelling the world and learning about different cultures. In
+	     her free time, you can find her napping in her Snuggie or dancing in her dancing shoes. </p>
+	     </div>  
+	</div>
+
 	<div class="view-second">  
 	     <img src="img/lulu.png" alt= "Lulu Tang">  
 	     <div class="mask">  
@@ -50,6 +68,12 @@
 	     lot. She has travelled to China, parts of Europe, Canada, and Mexico.</p>
      	</div>
      </div>  
+
+	     <div class="mask2">  
+	     <h2>Lulu Tang</h2>  
+	     <p> Lulu is a self-reknowned tetris champion and likes cats a 
+	     lot. She has travelled to China, parts of Europe, Canada, and Mexico.</p>
+     	</div>
 
 		<?php include 'footer.php'; ?>
 	</body>

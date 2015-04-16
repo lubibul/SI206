@@ -281,7 +281,11 @@ footer {
   .content {
     width: 95%;
   }
+.mask2{
+  display: none;
 }
+}
+
 
 /**** LULU TANG ****/
 
@@ -299,7 +303,11 @@ footer {
     position: static;
     width: 100%;
   }
+.mask2{
+  display: none;
 }
+}
+
 /****SELENA MOELJADI ****/
 /*Smaller Tablet*/
 @media only screen and (max-width: 768px) {
@@ -338,6 +346,10 @@ footer {
   }
 }
 
+.mask2{
+  display:none;
+}
+
 /**** BEN BEALE ****/
 
 /*Mobile*/
@@ -362,4 +374,10 @@ footer {
   .view.seattle h2 {
     background-color: #563d67;
   }
+
+  .mask2{
+    display: inline-block;
+  }
 }
+
+
