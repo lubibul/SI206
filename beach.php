@@ -93,14 +93,14 @@
 
 <div class="outer-div">	
 <div class="inner-div"><!-- <img src="img/pcb-partygoer.png" alt= "Sam the Party boy at PCB!" height= 145px  width = 200px> -->
-<h3>Cara Weeldon from NYC says: Amazing adventure it PCB, Florida. I got to jetski, waterski, and swim with dolphins! </h3> 
+<h3>Cara Weeldon from NYC says: Amazing adventures in PCB, Florida. I got to jetski, waterski, and swim with dolphins! </h3> 
 </div>
 </div>
 
 <div class="info">
 <h2> Write a Comment </h2>
 <form> 
-<textarea name="comments" id="comments" placeholder="What's it like up in Aspen?">
+<textarea name="comments" id="comments" placeholder="How was your PCB experience?">
 </textarea><br />
 <input type="submit" value="Submit" />
 </form>
