@@ -1,4 +1,4 @@
-=<!-- **** SELENA MOELJADI **** -->
+<!-- **** SELENA MOELJADI **** -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,10 @@
 </head>
 
 	<body>
-	<?php include "header.php"; ?>
+	<?php 
+		$fName = basename(__FILE__);
+		include "header.php"; 
+	?>
 	<section class="bigtext">
 	<img src= "img/pcb-banner.png" alt= "PCB Banner">	
 	</section>

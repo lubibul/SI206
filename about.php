@@ -18,7 +18,10 @@
 		<link href="jquery.bxslider.css" rel="stylesheet" />
 	</head>
 	<body>
-		<?php include 'header.php'; ?>
+		<?php 
+			$fName = basename(__FILE__);
+			include 'header.php'; 
+		?>
 			<section class="bigtext">
 	<img src= "img/about-banner.png" alt= "About the Team Banner">	
 	</section>

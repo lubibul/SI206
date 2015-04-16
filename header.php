@@ -6,14 +6,26 @@
 	echo "<a href=\"index.php\"><img class=\"logo\" src='img/logo.png' alt='company logo'/></a>";
 	echo "<div class=\"clear\"></div>";
 	echo "</header>";
-	echo "<nav id=\"nav\">
-		<a href=\"index.php\">Home</a>
-		<a href=\"contact.php\">Book Now</a>
-		<a href=\"beach.php\">PCB</a>
-		<a href=\"aspen.php\">Aspen</a>
-		<a href=\"seattle.php\">Seattle</a>
-		<a href=\"about.php\">About</a>
-	</nav>";
+	echo "<nav id=\"nav\">";
+		echo "<a href=\"index.php\"";
+			if ($fName == "index.php") echo "class=\"current\"";
+		echo ">Home</a>";
+		echo "<a href=\"contact.php\"";
+			if ($fName == "contact.php") echo "class=\"current\"";
+		echo ">Book Now</a>";
+		echo "<a href=\"beach.php\"";
+			if ($fName == "beach.php") echo "class=\"current\"";
+		echo ">PCB</a>";
+		echo "<a href=\"aspen.php\"";
+			if ($fName == "aspen.php") echo "class=\"current\"";
+		echo ">Aspen</a>";
+		echo "<a href=\"seattle.php\"";
+			if ($fName == "seattle.php") echo "class=\"current\"";
+		echo ">Seattle</a>";
+		echo "<a href=\"about.php\"";
+			if ($fName == "about.php") echo "class=\"current\"";
+		echo ">About</a>";
+	echo "</nav>";
 
 	echo "<script>
 		function toggleNav() {
