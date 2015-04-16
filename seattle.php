@@ -102,24 +102,24 @@
 		</section>
 
      <h1>TESTIMONIALS</h1>
-     <div class="outer-div">	
-<div class="inner-div">
-<h3> Debra Tang from Michigan says: Seattle has always been my dream to visit and thanks to Travel Agency for making it happen!</h3> 
-</div>
-</div>
-<div class="outer-div">	
-<div class="inner-div">
-<h3>Carl Joggersville from Alaska says: Definitely recommend the Seattle excursion. I got to hike and enjoy great food!</h3> 
-</div>
-</div>
-		<div class="info">
-			<h2><label for="comments">Write a Comment</label></h2>
-			<form> 
-				<textarea name="comments" id="comments" label= "Comments" placeholder="What's it like up in Seattle?">
-				</textarea><br />
-				<input type="submit" value="Submit" />
-			</form>
-		</div>
+	<div class="outer-div">	
+	<div class="inner-div info">
+		<h3> Debra Tang from Michigan says: Seattle has always been my dream to visit and thanks to Travel Agency for making it happen!</h3> 
+	</div>
+	</div>
+	<div class="outer-div">	
+	<div class="inner-div info">
+	<h3>Carl Joggersville from Alaska says: Definitely recommend the Seattle excursion. I got to hike and enjoy great food!</h3> 
+	</div>
+	</div>
+	<div class="info">
+		<h2><label for="comments">Write a Comment</label></h2>
+		<form> 
+			<textarea name="comments" id="comments" label= "Comments" placeholder="What's it like up in Seattle?">
+			</textarea><br />
+			<input type="submit" value="Submit" />
+		</form>
+	</div>
 
 		<?php include 'footer.php'; ?>
 	</body>
