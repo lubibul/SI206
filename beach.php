@@ -101,7 +101,7 @@
 <div class="info">
 <h2> Write a Comment </h2>
 <form> 
-<textarea name="comments" id="comments" placeholder="How was your PCB experience?">
+<textarea name="comments" id="comments" label= "Comments" placeholder="How was your PCB experience?">
 </textarea><br />
 <input type="submit" value="Submit" />
 </form>
