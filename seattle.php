@@ -101,8 +101,17 @@
 		     </div>  
 		</section>
 
-		<h1>TESTIMONIALS</h1>
-
+     <h1>TESTIMONIALS</h1>
+     <div class="outer-div">	
+<div class="inner-div">
+<h3> Debra Tang from Michigan says: Seattle has always been my dream to visit and thanks to Travel Agency for making it happen!</h3> 
+</div>
+</div>
+<div class="outer-div">	
+<div class="inner-div">
+<h3>Carl Joggersville from Alaska says: Definitely recommend the Seattle excursion. I got to hike and enjoy great food!</h3> 
+</div>
+</div>
 		<div class="info">
 			<label for="comments"><h2> Write a Comment </h2></label>
 			<form> 
