@@ -35,8 +35,9 @@ section {
   line-height: 1.5;
 }
 .info {
-  border-color: black;
--webkit-border-radius: 15px;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
   background: white;
 }
 

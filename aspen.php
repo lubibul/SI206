@@ -77,19 +77,19 @@
      	</div>
      </div>  
      <h1>TESTIMONIALS</h1>
-     <div class="outer-div">	
-<div class="inner-div">
-<h3> Sara Jones from Santa Fe, NM says: Cool excursion from Travel Agency!</h3> 
-</div>
-</div>
-<div class="outer-div">	
-<div class="inner-div">
-<h3>Nick Sands from Michigan says: Loved the slopes!</h3> 
-</div>
-</div>
-     		<div class="info">
+	<div class="outer-div">	
+	<div class="inner-div info">
+	<h3> Sara Jones from Santa Fe, NM says: Cool excursion from Travel Agency!</h3> 
+	</div>
+	</div>
+	<div class="outer-div">	
+	<div class="inner-div info">
+	<h3>Nick Sands from Michigan says: Loved the slopes!</h3> 
+	</div>
+	</div>
+	<div class="info">
 		<h2><label for="comments">Write a Comment</label></h2>
-		<form> 
+	<form> 
 <textarea name="comments" id="comments" label="Comments" placeholder="What's it like up in Aspen?">
 </textarea><br />
 <input type="submit" value="Submit" />
