@@ -76,8 +76,7 @@
 	         <a href="http://www.aspenchamber.org/explore-aspen/restaurants-nightlife" class="info">Read More</a>  
      	</div>
      </div>  
-
-<<<<<<< HEAD
+     <h1>TESTIMONIALS</h1>
      <div class="outer-div">	
 <div class="inner-div">
 <h3> Sara Jones from Santa Fe, NM says: Cool excursion from Travel Agency!</h3> 
@@ -88,10 +87,6 @@
 <h3>Nick Sands from Michigan says: Loved the slopes!</h3> 
 </div>
 </div>
-=======
-     <h1>TESTIMONIALS</h1>
->>>>>>> 03ca3d816085716f88255792324bc86dc23be8ce
-
      		<div class="info">
 		<label for="comments"><h2> Write a Comment </h2></label>
 		<form> 
