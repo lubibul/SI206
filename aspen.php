@@ -77,6 +77,7 @@
      	</div>
      </div>  
 
+<<<<<<< HEAD
      <div class="outer-div">	
 <div class="inner-div">
 <h3> Sara Jones from Santa Fe, NM says: Cool excursion from Travel Agency!</h3> 
@@ -87,9 +88,12 @@
 <h3>Nick Sands from Michigan says: Loved the slopes!</h3> 
 </div>
 </div>
+=======
+     <h1>TESTIMONIALS</h1>
+>>>>>>> 03ca3d816085716f88255792324bc86dc23be8ce
 
      		<div class="info">
-		<h2> Write a Comment </h2>
+		<label for="comments"><h2> Write a Comment </h2></label>
 		<form> 
 <textarea name="comments" id="comments" label="Comments" placeholder="What's it like up in Aspen?">
 </textarea><br />
