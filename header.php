@@ -8,22 +8,22 @@
 	echo "</header>";
 	echo "<nav id=\"nav\">";
 		echo "<a href=\"index.php\"";
-			if ($fName == "index.php") echo "class=\"current\"";
+			if ($fName == "index.php") echo " class=\"current\"";
 		echo ">Home</a>";
 		echo "<a href=\"contact.php\"";
-			if ($fName == "contact.php") echo "class=\"current\"";
+			if ($fName == "contact.php") echo " class=\"current\"";
 		echo ">Book Now</a>";
 		echo "<a href=\"beach.php\"";
-			if ($fName == "beach.php") echo "class=\"current\"";
+			if ($fName == "beach.php") echo " class=\"current\"";
 		echo ">PCB</a>";
 		echo "<a href=\"aspen.php\"";
-			if ($fName == "aspen.php") echo "class=\"current\"";
+			if ($fName == "aspen.php") echo " class=\"current\"";
 		echo ">Aspen</a>";
 		echo "<a href=\"seattle.php\"";
-			if ($fName == "seattle.php") echo "class=\"current\"";
+			if ($fName == "seattle.php") echo " class=\"current\"";
 		echo ">Seattle</a>";
 		echo "<a href=\"about.php\"";
-			if ($fName == "about.php") echo "class=\"current\"";
+			if ($fName == "about.php") echo " class=\"current\"";
 		echo ">About</a>";
 	echo "</nav>";
 
