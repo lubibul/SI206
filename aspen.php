@@ -91,7 +91,7 @@
      		<div class="info">
 		<h2><label for="comments">Write a Comment</label></h2>
 	<form> 
-<textarea name="comments" id="comments" label="Comments" placeholder="What's it like up in Aspen?">
+<textarea name="comments" id="comments" placeholder="What's it like up in Aspen?">
 </textarea><br />
 <input type="submit" value="Submit" />
 </form>

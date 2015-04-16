@@ -115,7 +115,7 @@
 	<div class="info">
 		<h2><label for="comments">Write a Comment</label></h2>
 		<form> 
-			<textarea name="comments" id="comments" label= "Comments" placeholder="What's it like up in Seattle?">
+			<textarea name="comments" id="comments" placeholder="What's it like up in Seattle?">
 			</textarea><br />
 			<input type="submit" value="Submit" />
 		</form>
