@@ -84,7 +84,8 @@ nav a {
   transition: all 0.2s ease;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.current {
   background-color: #EDE574;
   color: #FF4E50;
 }
