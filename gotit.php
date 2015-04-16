@@ -12,7 +12,10 @@
 </head>
 <body>
 
-<?php include 'header.php'; ?>
+<?php 
+	$fName = basename(__FILE__);
+	include 'header.php'; 
+?>
 
 <h1>Thank You!</h1>
 
