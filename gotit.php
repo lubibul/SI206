@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1">
-	<title>Book Your Trip</title>
+	<title>Thank You For Booking!</title>
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="form.css">
