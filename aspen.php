@@ -84,7 +84,7 @@
 </div>
 <div class="outer-div">	
 <div class="inner-div">
-<h3>Nick Sands from Michigan says: Loved the slopes!</h3> 
+<h3>Nick Sands from Michigan says: Loved the slopes and all your Command line work!</h3> 
 </div>
 </div>
      		<div class="info">
