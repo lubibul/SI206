@@ -101,15 +101,15 @@
 		     </div>  
 		</section>
 		<div class="info">
-		<h2> Write a Comment </h2>
-		<form> 
-<textarea name="comments" id="comments" placeholder="What's it like up in Seattle?">
-</textarea><br />
-<input type="submit" value="Submit" />
-</form>
-</div>
-</div>
-</br>
+			<h2> Write a Comment </h2>
+			<form> 
+				<textarea name="comments" id="comments" placeholder="What's it like up in Seattle?">
+				</textarea><br />
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+	</div>
+	</br>
 
 		<?php include 'footer.php'; ?>
 	</body>
